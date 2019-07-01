@@ -20,11 +20,13 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + Code: https://github.com/facebookresearch/SegmPred
 + [Predicting Future Instance Segmentation by Forecasting Convolutional Features](https://arxiv.org/pdf/1803.11496.pdf)
 + Code: https://github.com/facebookresearch/instpred (This is the code we currently trying to reproduce)
-### Other Video Prediction methods
+<pre>
+#### Some Prediction models
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
-+ Code: https://github.com/coupriec/VideoPredictionICLR2016
-### Other new semantic segmentation methods
+  Code: https://github.com/coupriec/VideoPredictionICLR2016
+#### Some semantic segmentation approaches
 + [Fast-SCNN: Fast Semantic Segmentation Network](https://arxiv.org/pdf/1902.04502.pdf)
-+ Code: https://github.com/DeepVoltaire/Fast-SCNN
+  Code: https://github.com/DeepVoltaire/Fast-SCNN
 + [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
-+ Code: https://github.com/fregu856/deeplabv3
+  Code: https://github.com/fregu856/deeplabv3
+<pre>

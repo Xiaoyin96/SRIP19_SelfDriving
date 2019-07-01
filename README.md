@@ -21,6 +21,7 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + [Predicting Future Instance Segmentation by Forecasting Convolutional Features](https://arxiv.org/pdf/1803.11496.pdf)
 + Code: https://github.com/facebookresearch/instpred (This is the code we currently trying to reproduce)
 ----
+We want to implement a video prediction method in semantic segmentation.
 #### Some Prediction models
 + [List: Video prediction papers with code](https://paperswithcode.com/task/video-prediction)
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)

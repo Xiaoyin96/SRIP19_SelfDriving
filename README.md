@@ -20,7 +20,7 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + Code: https://github.com/facebookresearch/SegmPred
 + [Predicting Future Instance Segmentation by Forecasting Convolutional Features](https://arxiv.org/pdf/1803.11496.pdf)
 + Code: https://github.com/facebookresearch/instpred (This is the code we currently trying to reproduce)
-
+----
 #### Some Prediction models
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
 + Code: https://github.com/coupriec/VideoPredictionICLR2016

@@ -28,6 +28,7 @@ Summary: [Video prediction papers with code](https://paperswithcode.com/task/vid
 + Code in lua: https://github.com/coupriec/VideoPredictionICLR2016 
 + Code in tf: https://github.com/dyelax/Adversarial_Video_Generation
 + [Prediction Under Uncertainty with Error-Encoding Networks](https://arxiv.org/pdf/1711.04994.pdf)
++ Code: https://github.com/mbhenaff/EEN
 + [Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning](https://arxiv.org/pdf/1605.08104.pdf)
 + Code: https://github.com/coxlab/prednet
 + [Peeking into the Future: Predicting Future Person Activities and Locations in Video](https://arxiv.org/abs/1902.03748)

@@ -19,11 +19,11 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + [Predicting Deeper into the Future of Semantic Segmentation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luc_Predicting_Deeper_Into_ICCV_2017_paper.pdf)
 + Code: https://github.com/facebookresearch/SegmPred
 + [Predicting Future Instance Segmentation by Forecasting Convolutional Features](https://arxiv.org/pdf/1803.11496.pdf)
-+ Code: https://github.com/facebookresearch/instpred (This is the code we currently trying to reproduce)
++ Code: https://github.com/facebookresearch/instpred (This is the code we currently try to reproduce)
 ----
 We want to implement a video prediction method in semantic segmentation.
 #### Some Prediction models
-+ [List: Video prediction papers with code](https://paperswithcode.com/task/video-prediction)
++ Summary: [List: Video prediction papers with code](https://paperswithcode.com/task/video-prediction)
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
 + Code in lua: https://github.com/coupriec/VideoPredictionICLR2016 
 + Code in tf: https://github.com/dyelax/Adversarial_Video_Generation
@@ -33,7 +33,7 @@ We want to implement a video prediction method in semantic segmentation.
 + [Peeking into the Future: Predicting Future Person Activities and Locations in Video](https://arxiv.org/abs/1902.03748)
 + Code: https://github.com/google/next-prediction
 #### Some semantic segmentation approaches
-+ [List: Semantic segmentation papers with code](https://paperswithcode.com/task/semantic-segmentation)
++ Summary: [List: Semantic segmentation papers with code](https://paperswithcode.com/task/semantic-segmentation)
 + [Fast-SCNN: Fast Semantic Segmentation Network](https://arxiv.org/pdf/1902.04502.pdf)
 + Code: https://github.com/DeepVoltaire/Fast-SCNN
 + [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)

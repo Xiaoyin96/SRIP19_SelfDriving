@@ -11,7 +11,7 @@
 + [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/pdf/1612.07695.pdf)
 + [UberNet: Training a Universal Convolutional Neural Network for Low-, Mid-,and High-Level Vision using Diverse Datasets and Limited Memory](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
 + [Cross-stitch Networks for Multi-task Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
-### Video Prediction in self-driving
+### Video Prediction in self-driving [What we're trying to improve]
 + [DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lee_DESIRE_Distant_Future_CVPR_2017_paper.pdf)
 + Code: https://github.com/yadrimz/DESIRE
 + [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion

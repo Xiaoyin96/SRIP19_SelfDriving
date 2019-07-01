@@ -32,6 +32,7 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + [Peeking into the Future: Predicting Future Person Activities and Locations in Video](https://arxiv.org/abs/1902.03748)
 + Code: https://github.com/google/next-prediction
 #### Some semantic segmentation approaches
++ [List: Semantic segmentation papers with code](https://paperswithcode.com/task/semantic-segmentation)
 + [Fast-SCNN: Fast Semantic Segmentation Network](https://arxiv.org/pdf/1902.04502.pdf)
 + Code: https://github.com/DeepVoltaire/Fast-SCNN
 + [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)

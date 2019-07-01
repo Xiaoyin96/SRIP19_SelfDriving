@@ -23,7 +23,8 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 ----
 #### Some Prediction models
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
-+ Code: https://github.com/coupriec/VideoPredictionICLR2016
++ Code in lua: https://github.com/coupriec/VideoPredictionICLR2016 
++ Code in tf: https://github.com/dyelax/Adversarial_Video_Generation
 + [Prediction Under Uncertainty with Error-Encoding Networks](https://arxiv.org/pdf/1711.04994.pdf)
 + [Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning](https://arxiv.org/pdf/1605.08104.pdf)
 + Code: https://github.com/coxlab/prednet

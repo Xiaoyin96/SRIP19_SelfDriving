@@ -27,6 +27,8 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + [Prediction Under Uncertainty with Error-Encoding Networks](https://arxiv.org/pdf/1711.04994.pdf)
 + [Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning](https://arxiv.org/pdf/1605.08104.pdf)
 + Code: https://github.com/coxlab/prednet
++ [Peeking into the Future: Predicting Future Person Activities and Locations in Video](https://arxiv.org/abs/1902.03748)
++ Code: https://github.com/google/next-prediction
 #### Some semantic segmentation approaches
 + [Fast-SCNN: Fast Semantic Segmentation Network](https://arxiv.org/pdf/1902.04502.pdf)
 + Code: https://github.com/DeepVoltaire/Fast-SCNN

@@ -13,13 +13,13 @@
 + [Cross-stitch Networks for Multi-task Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
 ### Video Prediction in self-driving
 + [DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lee_DESIRE_Distant_Future_CVPR_2017_paper.pdf)
-+ Code: https://github.com/yadrimz/DESIRE (Still in progress)
++ Code: https://github.com/yadrimz/DESIRE
 + [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion
 Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf)
 + [Predicting Deeper into the Future of Semantic Segmentation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luc_Predicting_Deeper_Into_ICCV_2017_paper.pdf)
 + Code: https://github.com/facebookresearch/SegmPred
 + [Predicting Future Instance Segmentation by Forecasting Convolutional Features](https://arxiv.org/pdf/1803.11496.pdf)
-+ Code: https://github.com/facebookresearch/instpred
++ Code: https://github.com/facebookresearch/instpred (This is the code we currently trying to reproduce)
 ### Other Video Prediction methods
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
 + Code: https://github.com/coupriec/VideoPredictionICLR2016

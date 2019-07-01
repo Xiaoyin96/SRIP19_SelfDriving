@@ -25,7 +25,6 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
 + Code: https://github.com/coupriec/VideoPredictionICLR2016
 + [Prediction Under Uncertainty with Error-Encoding Networks](https://arxiv.org/pdf/1711.04994.pdf)
-+ Code: https://github.com/guanfuchen/videopred
 + [Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning](https://arxiv.org/pdf/1605.08104.pdf)
 + Code: https://github.com/coxlab/prednet
 #### Some semantic segmentation approaches

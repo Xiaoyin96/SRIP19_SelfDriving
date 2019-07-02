@@ -31,7 +31,7 @@ Summary: [Video prediction papers with code](https://paperswithcode.com/task/vid
 + Code: https://github.com/mbhenaff/EEN
 + [Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning](https://arxiv.org/pdf/1605.08104.pdf)
 + Code: https://github.com/coxlab/prednet
-+ [Peeking into the Future: Predicting Future Person Activities and Locations in Video](https://arxiv.org/abs/1902.03748.pdf)
++ [Peeking into the Future: Predicting Future Person Activities and Locations in Video](https://arxiv.org/pdf/1902.03748.pdf)
 + Code: https://github.com/google/next-prediction
 #### Some semantic segmentation approaches
 Summary: [Semantic segmentation papers with code](https://paperswithcode.com/task/semantic-segmentation)

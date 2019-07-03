@@ -1,7 +1,7 @@
 # SRIP19: Self-Driving and Multi-task Learning
 ### Self-Driving Review
 + [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges.](https://arxiv.org/pdf/1902.07830.pdf)
-### Self-Driving Datasets
+### Existed Self-Driving Datasets
 + [BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling](https://arxiv.org/pdf/1805.04687.pdf)
 + [The ApolloScape Dataset for Autonomous Driving](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8575295&tag=1)
 + [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://www.cityscapes-dataset.com/wordpress/wp-content/papercite-data/pdf/cordts2016cityscapes.pdf)
@@ -40,5 +40,7 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
 + Code: https://github.com/fregu856/deeplabv3
 #### New tasks in self-driving area
++ [Trajectory Prediction](https://arxiv.org/pdf/1811.02146.pdf)
 + [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
 + Code: https://github.com/Angzz/awesome-panoptic-segmentation
++ [Blind Spot Detection](https://link.springer.com/article/10.1007/s42154-018-0036-6)

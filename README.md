@@ -39,3 +39,6 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + Code: https://github.com/DeepVoltaire/Fast-SCNN
 + [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
 + Code: https://github.com/fregu856/deeplabv3
+#### New tasks in self-driving area
++ [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
++ Code: https://github.com/Angzz/awesome-panoptic-segmentation

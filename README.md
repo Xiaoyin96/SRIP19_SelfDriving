@@ -13,35 +13,35 @@
 + [Cross-stitch Networks for Multi-task Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
 ### Video Prediction in self-driving
 + [DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lee_DESIRE_Distant_Future_CVPR_2017_paper.pdf)
-+ Code: https://github.com/yadrimz/DESIRE
+	+ Code: https://github.com/yadrimz/DESIRE
 + [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion
 Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf)
 + [Predicting Deeper into the Future of Semantic Segmentation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luc_Predicting_Deeper_Into_ICCV_2017_paper.pdf)
-+ Code: https://github.com/facebookresearch/SegmPred
+	+ Code: https://github.com/facebookresearch/SegmPred
 + [Predicting Future Instance Segmentation by Forecasting Convolutional Features](https://arxiv.org/pdf/1803.11496.pdf)
-+ Code: https://github.com/facebookresearch/instpred (This is the code we currently try to reproduce)
+	+ Code: https://github.com/facebookresearch/instpred (This is the code we currently try to reproduce)
 ----
 We want to implement a video prediction method in semantic segmentation.
 #### Some Prediction models
 Summary: [Video prediction papers with code](https://paperswithcode.com/task/video-prediction)
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
-+ Code in lua: https://github.com/coupriec/VideoPredictionICLR2016 
-+ Code in tf: https://github.com/dyelax/Adversarial_Video_Generation
+	+ Code in lua: https://github.com/coupriec/VideoPredictionICLR2016 
+	+ Code in tf: https://github.com/dyelax/Adversarial_Video_Generation
 + [Prediction Under Uncertainty with Error-Encoding Networks](https://arxiv.org/pdf/1711.04994.pdf)
-+ Code: https://github.com/mbhenaff/EEN
+	+ Code: https://github.com/mbhenaff/EEN
 + [Deep Predictive Coding Networks for Video Prediction and Unsupervised Learning](https://arxiv.org/pdf/1605.08104.pdf)
-+ Code: https://github.com/coxlab/prednet
+	+ Code: https://github.com/coxlab/prednet
 + [Peeking into the Future: Predicting Future Person Activities and Locations in Video](https://arxiv.org/pdf/1902.03748.pdf)
-+ Code: https://github.com/google/next-prediction
+	+ Code: https://github.com/google/next-prediction
 #### Some semantic segmentation approaches
 Summary: [Semantic segmentation papers with code](https://paperswithcode.com/task/semantic-segmentation)
 + [Fast-SCNN: Fast Semantic Segmentation Network](https://arxiv.org/pdf/1902.04502.pdf)
-+ Code: https://github.com/DeepVoltaire/Fast-SCNN
+	+ Code: https://github.com/DeepVoltaire/Fast-SCNN
 + [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
-+ Code: https://github.com/fregu856/deeplabv3
+	+ Code: https://github.com/fregu856/deeplabv3
 #### New tasks in self-driving area
 + [Trajectory Prediction](https://arxiv.org/pdf/1811.02146.pdf)
-+ Code: https://github.com/huang-xx/TrafficPredict
+	+ Code: https://github.com/huang-xx/TrafficPredict
 + [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
-+ Code: https://github.com/Angzz/awesome-panoptic-segmentation
+	+ Code: https://github.com/Angzz/awesome-panoptic-segmentation
 + [Blind Spot Detection](https://link.springer.com/article/10.1007/s42154-018-0036-6)

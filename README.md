@@ -45,4 +45,4 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
 	+ Code: https://github.com/Angzz/awesome-panoptic-segmentation
 + [Blind Spot Detection](https://link.springer.com/article/10.1007/s42154-018-0036-6)
-+ [Parking Lot Dataset]: [CNR_Park](http://cnrpark.it/), [COWC](https://gdo152.llnl.gov/cowc/)
++ Parking Lot Dataset: [CNR_Park](http://cnrpark.it/), [COWC](https://gdo152.llnl.gov/cowc/)

@@ -47,4 +47,5 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + [Blind Spot Detection](https://link.springer.com/article/10.1007/s42154-018-0036-6)
 #### Collect new datasets
 + Parking Lot Dataset: [CNR_Park](http://cnrpark.it/), [COWC](https://gdo152.llnl.gov/cowc/), [PNNL](https://www.crcv.ucf.edu/data/ParkingLOT/)
-+ [Joint Attention for Autonomous Driving](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/)
++ [Joint Attention for Autonomous Driving](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf)
++ [Honda Research Institute Driving Dataset](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ramanishka_Toward_Driving_Scene_CVPR_2018_paper.pdf)

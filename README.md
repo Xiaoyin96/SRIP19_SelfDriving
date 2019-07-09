@@ -52,3 +52,5 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 #### Drivable area segmentation
 + [Enhanced free space detection in multiple lanes based on single CNN with scene identification](https://arxiv.org/pdf/1905.00941.pdf)
 + Code: https://github.com/fabvio/ld-lsi
++ [Spatial As Deep: Spatial CNN for Traffic Scene Understanding](https://arxiv.org/pdf/1712.06080.pdf)
++ Code: https://github.com/cardwing/Codes-for-Lane-Detection

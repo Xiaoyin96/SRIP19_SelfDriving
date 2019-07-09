@@ -49,7 +49,7 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + Parking Lot Dataset: [CNR_Park](http://cnrpark.it/), [COWC](https://gdo152.llnl.gov/cowc/), [PNNL](https://www.crcv.ucf.edu/data/ParkingLOT/)
 + [Joint Attention for Autonomous Driving](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf)
 + [Honda Research Institute Driving Dataset](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ramanishka_Toward_Driving_Scene_CVPR_2018_paper.pdf)
-#### Drivable area segmentation
+#### Drivable area detection
 + [Enhanced free space detection in multiple lanes based on single CNN with scene identification](https://arxiv.org/pdf/1905.00941.pdf)
 + Code: https://github.com/fabvio/ld-lsi
 + [Spatial As Deep: Spatial CNN for Traffic Scene Understanding](https://arxiv.org/pdf/1712.06080.pdf)

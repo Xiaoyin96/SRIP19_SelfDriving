@@ -12,6 +12,7 @@
 + [UberNet: Training a Universal Convolutional Neural Network for Low-, Mid-,and High-Level Vision using Diverse Datasets and Limited Memory](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
 + [Cross-stitch Networks for Multi-task Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kokkinos_Ubernet_Training_a_CVPR_2017_paper.pdf)
 ### Video Prediction in self-driving
++ [Trajectory prediction summary](https://github.com/xuehaouwa/Awesome-Trajectory-Prediction)
 + [DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents](http://openaccess.thecvf.com/content_cvpr_2017/papers/Lee_DESIRE_Distant_Future_CVPR_2017_paper.pdf)
 	+ Code: https://github.com/yadrimz/DESIRE
 + [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion

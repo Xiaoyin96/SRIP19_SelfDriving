@@ -52,9 +52,9 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + [Honda Research Institute Driving Dataset](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ramanishka_Toward_Driving_Scene_CVPR_2018_paper.pdf)
 #### Drivable area & Lane detection
 + [Enhanced free space detection in multiple lanes based on single CNN with scene identification](https://arxiv.org/pdf/1905.00941.pdf)
-+ Code: https://github.com/fabvio/ld-lsi
+	+ Code: https://github.com/fabvio/ld-lsi
 + [Spatial As Deep: Spatial CNN for Traffic Scene Understanding](https://arxiv.org/pdf/1712.06080.pdf)
-+ Code: https://github.com/cardwing/Codes-for-Lane-Detection
+	+ Code: https://github.com/cardwing/Codes-for-Lane-Detection
 #### Outdoor Navigation & Path Planing
 + [Forecasting Social Navigation in Crowded Complex Scenes](https://arxiv.org/pdf/1601.00998.pdf)
-+ Dataset:https://cs.stanford.edu/~anenberg/uav_data/
+	+ Dataset:https://cs.stanford.edu/~anenberg/uav_data/

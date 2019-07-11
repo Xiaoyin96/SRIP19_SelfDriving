@@ -55,6 +55,6 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + Code: https://github.com/fabvio/ld-lsi
 + [Spatial As Deep: Spatial CNN for Traffic Scene Understanding](https://arxiv.org/pdf/1712.06080.pdf)
 + Code: https://github.com/cardwing/Codes-for-Lane-Detection
-#### Navigation & Path Planing
+#### Outdoor Navigation & Path Planing
 + [Forecasting Social Navigation in Crowded Complex Scenes](https://arxiv.org/pdf/1601.00998.pdf)
 + Dataset:https://cs.stanford.edu/~anenberg/uav_data/

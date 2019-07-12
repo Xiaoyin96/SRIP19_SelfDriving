@@ -20,9 +20,7 @@ Forecasting with a Single Convolutional Net](http://openaccess.thecvf.com/conten
 + [Predicting Deeper into the Future of Semantic Segmentation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Luc_Predicting_Deeper_Into_ICCV_2017_paper.pdf)
 	+ Code: https://github.com/facebookresearch/SegmPred
 + [Predicting Future Instance Segmentation by Forecasting Convolutional Features](https://arxiv.org/pdf/1803.11496.pdf)
-	+ Code: https://github.com/facebookresearch/instpred (This is the code we currently try to reproduce)
-----
-We want to implement a video prediction method in semantic segmentation.
+	+ Code: https://github.com/facebookresearch/instpred 
 #### Some Prediction models
 Summary: [Video prediction papers with code](https://paperswithcode.com/task/video-prediction)
 + [Deep Multi-scale video prediction beyond mean square error](https://arxiv.org/pdf/1511.05440.pdf)
@@ -40,21 +38,9 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 	+ Code: https://github.com/DeepVoltaire/Fast-SCNN
 + [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
 	+ Code: https://github.com/fregu856/deeplabv3
-#### New tasks in self-driving area
-+ [Trajectory Prediction](https://arxiv.org/pdf/1811.02146.pdf)
-	+ Code: https://github.com/huang-xx/TrafficPredict
-+ [Panoptic Segmentation](https://arxiv.org/pdf/1801.00868.pdf)
-	+ Code: https://github.com/Angzz/awesome-panoptic-segmentation
-+ [Blind Spot Detection](https://link.springer.com/article/10.1007/s42154-018-0036-6)
-#### Collect new datasets
-+ Parking Lot Dataset: [CNR_Park](http://cnrpark.it/), [COWC](https://gdo152.llnl.gov/cowc/), [PNNL](https://www.crcv.ucf.edu/data/ParkingLOT/)
-+ [Joint Attention for Autonomous Driving](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w3/Rasouli_Are_They_Going_ICCV_2017_paper.pdf)
-+ [Honda Research Institute Driving Dataset](http://openaccess.thecvf.com/content_cvpr_2018/papers/Ramanishka_Toward_Driving_Scene_CVPR_2018_paper.pdf)
-#### Drivable area & Lane detection
-+ [Enhanced free space detection in multiple lanes based on single CNN with scene identification](https://arxiv.org/pdf/1905.00941.pdf)
-	+ Code: https://github.com/fabvio/ld-lsi
-+ [Spatial As Deep: Spatial CNN for Traffic Scene Understanding](https://arxiv.org/pdf/1712.06080.pdf)
-	+ Code: https://github.com/cardwing/Codes-for-Lane-Detection
-#### Outdoor Navigation & Path Planing
-+ [Forecasting Social Navigation in Crowded Complex Scenes](https://arxiv.org/pdf/1601.00998.pdf)
-	+ Dataset:https://cs.stanford.edu/~anenberg/uav_data/
+----
+#### Pedestrian and Car Activity Dataset
++ [JAAD](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/)
++ [BDD-A](https://arxiv.org/pdf/1711.06406.pdf)
++ [DR(eye)VE](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7789504)
+#### Mainstream Self-Driving Dataset and Annotations

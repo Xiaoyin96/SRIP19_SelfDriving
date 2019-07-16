@@ -36,7 +36,7 @@ Summary: [Video prediction papers with code](https://paperswithcode.com/task/vid
 Summary: [Semantic segmentation papers with code](https://paperswithcode.com/task/semantic-segmentation)
 + [Fast-SCNN: Fast Semantic Segmentation Network](https://arxiv.org/pdf/1902.04502.pdf)
 	+ Code: https://github.com/DeepVoltaire/Fast-SCNN
-+ [DeeplabV3:Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
++ [DeeplabV3: Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
 	+ Code: https://github.com/fregu856/deeplabv3
 ----
 ### Pedestrian and Car Activity Dataset

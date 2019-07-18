@@ -12,3 +12,4 @@
 
 #### format of action ground truth
 + 'id': selected video name, 'action': action number(0-3) for 602 frames (40s).
++ in train_action.txt and val_action.txt.

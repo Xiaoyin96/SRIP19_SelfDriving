@@ -7,8 +7,8 @@
 #### IMU info convert to action gt
 + Use location info in IMU, especially speed and course(angle).
 + Action dict: 'straight': 0, 'slow_or_stop': 1, 'turn_left': 2, 'turn_right': 3
-+ threshold for stop: 1e-3, threshold for deceleration (detect significant slow down that is not due to going to turn) is 1.0.
++ threshold for stop: 1e-3, threshold for deceleration is 1.0.(detect significant slow down that is not due to going to turn)
 + Some selected videos have bad timestamp, so in action_gt, its action will be 'N/A'.
 
 #### format of action ground truth
-+ e.g. 
++ 'id': selected video name, 'action': action number(0-3) for 602 frames (40s).

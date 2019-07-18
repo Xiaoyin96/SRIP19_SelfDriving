@@ -1,32 +1,14 @@
-# Apache Spark
+# Action Ground Truth using method of [BDD_drive_model](https://github.com/gy20073/BDD_Driving_Model)
 
-Spark is a fast and general cluster computing system for Big Data. It provides
-high-level APIs in Scala, Java, Python, and R, and an optimized engine that
-supports general computation graphs for data analysis. It also supports a
-rich set of higher-level tools including Spark SQL for SQL and DataFrames,
-MLlib for machine learning, GraphX for graph processing,
-and Spark Streaming for stream processing.
+#### Select videos with complex scenes
++ Standard: >=5 pedestrians and >=5 cars at the 10th second of each 40-second video (since the it's only frame with bbox ground truth)
++ Selected video clips id in train_id.txt (5070) and val_id.txt(743).
 
-<http://spark.apache.org/>
+#### IMU info convert to action gt
++ Use location info in IMU, especially speed and course(angle).
++ Action dict: 'straight': 0, 'slow_or_stop': 1, 'turn_left': 2, 'turn_right': 3
++ threshold for stop: 1e-3, threshold for deceleration (detect significant slow down that is not due to going to turn) is 1.0.
++ Some selected videos have bad timestamp, so in action_gt, its action will be 'N/A'.
 
-## Online Documentation
-
-You can find the latest Spark documentation, including a programming
-guide, on the [project web page](http://spark.apache.org/documentation.html)
-
-
-## Python Packaging
-
-This README file only contains basic information related to pip installed PySpark.
-This packaging is currently experimental and may change in future versions (although we will do our best to keep compatibility).
-Using PySpark requires the Spark JARs, and if you are building this from source please see the builder instructions at
-["Building Spark"](http://spark.apache.org/docs/latest/building-spark.html).
-
-The Python packaging for Spark is not intended to replace all of the other use cases. This Python packaged version of Spark is suitable for interacting with an existing cluster (be it Spark standalone, YARN, or Mesos) - but does not contain the tools required to set up your own standalone Spark cluster. You can download the full version of Spark from the [Apache Spark downloads page](http://spark.apache.org/downloads.html).
-
-
-**NOTE:** If you are using this with a Spark standalone cluster you must ensure that the version (including minor version) matches or you may experience odd errors.
-
-## Python Requirements
-
-At its core PySpark depends on Py4J (currently version 0.10.7), but some additional sub-packages have their own extra requirements for some features (including numpy, pandas, and pyarrow).
+#### format of action ground truth
++ e.g. 

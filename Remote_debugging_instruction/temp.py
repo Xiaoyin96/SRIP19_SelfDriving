@@ -26,9 +26,9 @@ class Solution(object):
                 return [i,dic[sub]]
         return  0
 
-import ptvsd
-ptvsd.enable_attach()
-ptvsd.wait_for_attach()
+# import ptvsd
+# ptvsd.enable_attach()
+# ptvsd.wait_for_attach()
 
 import csv
 with open('mrcnn/filelist.csv') as f:

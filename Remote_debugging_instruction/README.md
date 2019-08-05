@@ -1,6 +1,7 @@
 # Set up remote debugging in kubernetes with VS Code  
 
-## Setp 1
+## Method 1
+### Setp 1
 
 Start a pod in kubernetes:
 
@@ -19,9 +20,52 @@ Install ptvsd in pod if don't have:
 pip install ptvsd
 ```
 
-## Step 2
+### Step 2
 
 Prepare 2 same python script at both pod and local.  
+
+Additionally, in VS Code, add debug configuration (open launch.json):
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach (Remote Debug)",
+            "type": "python",
+            "request": "attach",
+            "localRoot": "${workspaceRoot}",
+            "remoteRoot": "/home/selfdriving",
+            "port": 5678,
+            "host":"localhost"
+        }
+    ]
+}
+```
+### Step 3
+
+Run the python file in pod (--wait means wait until the debugger attaches before running your code):
+```
+python -m ptvsd --host 0.0.0.0 --port 5678 --wait temp.py
+```
+
+Open another terminal, run:
+```
+kubectl port-forward mrcnn-pod 5678:5678
+```
+
+### Step 4
+
+Start dubugging!
+
+## Method 2
+### Setp 1
+
+Same as above
+
+### Step 2
+
+Prepare 2 same python script at both pod and local.  
+
 At beginning of each script, add:
 
 ```
@@ -47,7 +91,7 @@ Additionally, in VS Code, add debug configuration (open launch.json):
     ]
 }
 ```
-## Step 3
+### Step 3
 
 Run the python file in pod:
 ```
@@ -59,6 +103,6 @@ Open another terminal, run:
 kubectl port-forward mrcnn-pod 5678:5678
 ```
 
-## Step 4
+### Step 4
 
 Start dubugging!

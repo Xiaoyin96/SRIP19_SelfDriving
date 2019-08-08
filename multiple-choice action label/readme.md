@@ -39,5 +39,14 @@
       - cars in the left lane('no_r_car')
       - no left lane('no_r_lane')
       - can't cross solid line('no_r_solid_line')
+- Statistics: 
+  - total: 5561
+  - forward: 4135
+  - stop: 1566
+  - left turn: 97
+  - right turn: 120
+  - change lane to left: 1683
+  - change lane to right: 1826
+
 
     

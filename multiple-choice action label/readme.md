@@ -47,6 +47,10 @@
   - right turn: 120
   - change lane to left: 1683
   - change lane to right: 1826
+- One-hot-code format: 
+  - number of class: 7
+  - order: forward, stop, turn left, turn right, change lane to left, change lane to right, confuse
+  - e.g. [1,0,0,0,1,0,0] means forward and change lane to left.
 
 
     

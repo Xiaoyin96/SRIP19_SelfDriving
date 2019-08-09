@@ -1,4 +1,4 @@
-### multiple-choice action
+### multiple-choice action label
 
 - Dataset: BDD
 

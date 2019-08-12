@@ -40,13 +40,14 @@
       - no left lane('no_r_lane')
       - can't cross solid line('no_r_solid_line')
 - Statistics: 
-  - total: 5561
-  - forward: 4135
-  - stop: 1566
-  - left turn: 97
-  - right turn: 120
-  - change lane to left: 1683
-  - change lane to right: 1826
+  - total: 11624
+  - forward: 8478
+  - stop: 3325
+  - left turn: 465
+  - right turn: 503
+  - change lane to left: 3335
+  - change lane to right: 3620
+  - confuse: 89
 - One-hot-code format: 
   - number of class: 7
   - order: forward, stop, turn left, turn right, change lane to left, change lane to right, confuse

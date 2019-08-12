@@ -52,6 +52,8 @@
   - number of class: 7
   - order: forward, stop, turn left, turn right, change lane to left, change lane to right, confuse
   - e.g. [1,0,0,0,1,0,0] means forward and change lane to left.
+- Train, test split:
+  - train: test: val = 7:2:1
 
 
     

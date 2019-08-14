@@ -39,8 +39,7 @@ Summary: [Semantic segmentation papers with code](https://paperswithcode.com/tas
 + [DeeplabV3: Rethinking Atrous Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1706.05587.pdf)
 	+ Code: https://github.com/fregu856/deeplabv3
 ----
-### Pedestrian and Car Activity Dataset
-+ [JAAD](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/)
-+ [BDD-A](https://arxiv.org/pdf/1711.06406.pdf)
-+ [DR(eye)VE](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7789504)
-### Mainstream Self-Driving Dataset and Annotations
+### Useful github repo
++ [Mask-rcnn benchmark](https://github.com/facebookresearch/maskrcnn-benchmark/tree/master/maskrcnn_benchmark)
++ [Inflated_convnets_pytorch](https://github.com/hassony2/inflated_convnets_pytorch)
++ [pytorch_i3d with training](https://github.com/piergiaj/pytorch-i3d)

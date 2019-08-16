@@ -48,10 +48,14 @@
   - change lane to left: 3335
   - change lane to right: 3620
   - confuse: 89
-- One-hot-code format: 
+- Action one-hot-code format: 
   - number of class: 7
   - order: forward, stop, turn left, turn right, change lane to left, change lane to right, confuse
   - e.g. [1,0,0,0,1,0,0] means forward and change lane to left.
+- Reason one-hot code format:
+  - number of class: 21
+  - order: f_follow_traffic, f_road_clear, f_traffic_light, s_ob_car, s_ob_ped, s_ob_rider, s_other, s_traffic_light, s_traffic_sign, l_front_car, l_lane, l_traffic_light, r_front_car, r_lane, r_traffic_light, no_l_car, no_l_lane, no_l_solid_line, 
+  no_r_car, no_r_lane, no_r_solid_line.
 - Train, test split:
   - train: test: val = 7:2:1
 

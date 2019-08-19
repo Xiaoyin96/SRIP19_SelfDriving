@@ -42,12 +42,12 @@ class I3ResNet(torch.nn.Module):
             self.fc = inflate.inflate_linear(resnet2d.fc, 1)
 
     def forward(self, x):
-        x = self.conv1(x)
+        x = self.conv1(x) # input size: 1 x 3 x 64 x 224 x 224
         x = self.bn1(x)
         x = self.relu(x)
         x = self.maxpool(x)
 
-        x = self.layer1(x)
+        x = self.layer1(x) # 1 x 64 x 32 x 56 x 56
         x = self.layer2(x)
         x = self.layer3(x)
         x = self.layer4(x)
@@ -106,8 +106,8 @@ class Bottleneck3d(torch.nn.Module):
         self.stride = bottleneck2d.stride
 
     def forward(self, x):
-        residual = x
-        out = self.conv1(x)
+        residual = x  # 1 x 64 x 32 x 56 x 56
+        out = self.conv1(x) 
         out = self.bn1(out)
         out = self.relu(out)
 

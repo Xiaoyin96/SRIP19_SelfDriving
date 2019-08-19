@@ -17,9 +17,10 @@ def run_inflater(args):
     normalize = transforms.Normalize(
         mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     dataset = datasets.ImageFolder('/home/selfdriving/I3D/data/dummy-dataset',
-                                   transforms.Compose([
+                                   transforms.Compose(
+                                       [transforms.Resize(256), # add resize
                                        transforms.CenterCrop(224),
-                                       transforms.RandomHorizontalFlip(),
+                                    #    transforms.RandomHorizontalFlip(),
                                        transforms.ToTensor(),
                                        normalize,
                                    ]))
@@ -48,19 +49,19 @@ def run_inflater(args):
 
     for i, (input_2d, target) in enumerate(loader):
         # target = target.cuda()
-        target = target.to(device)
+        target = target.to(device) # 1
         target_var = torch.autograd.Variable(target)
         # input_2d_var = torch.autograd.Variable(input_2d.cuda())
-        input_2d_var = torch.autograd.Variable(input_2d.to(device))
+        input_2d_var = torch.autograd.Variable(input_2d.to(device)) #1x3x224x224
 
-        out2d = resnet(input_2d_var)
+        out2d = resnet(input_2d_var) #1x1000
         out2d = out2d.cpu().data
 
-        input_3d = input_2d.unsqueeze(2).repeat(1, 1, args.frame_nb, 1, 1)
+        input_3d = input_2d.unsqueeze(2).repeat(1, 1, args.frame_nb, 1, 1) # 1x3x16x224x224
         # input_3d_var = torch.autograd.Variable(input_3d.cuda())
         input_3d_var = torch.autograd.Variable(input_3d.to(device))
 
-        out3d = i3resnet(input_3d_var)
+        out3d = i3resnet(input_3d_var) # 1x1000
         out3d = out3d.cpu().data
 
         out_diff = out2d - out3d
@@ -116,7 +117,7 @@ if __name__ == "__main__":
     parser.add_argument(
         '--frame_nb',
         type=int,
-        default='16',
+        default='64',
         help='Number of video_frames to use (should be a multiple of 8)')
     args = parser.parse_args()
     run_inflater(args)

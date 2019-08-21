@@ -1,0 +1,397 @@
+load data: 100
+load data: 200
+load data: 300
+load data: 400
+load data: 500
+load data: 600
+load data: 700
+load data: 800
+load data: 900
+load data: 1000
+load data: 1100
+loaded saved state_dict...
+validation dataset batch: 0
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.55 accumulated f1 score: 0.55
+f1 average: [0.25 0.25 0.   0.   0.   0.5  0.  ]
+Time elapsed: 4.175107717514038
+validation dataset batch: 10
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 1 0 0]
+ [1 0 0 0 1 1 0]
+ [0 1 0 0 0 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.7083333333333333 accumulated f1 score: 0.7128787878787878
+f1 average: [0.76031746 0.58333333 0.         0.         0.44444444 0.45555556
+ 0.        ]
+Time elapsed: 0.18099737167358398
+validation dataset batch: 20
+prediction logits:[[1 0 0 0 1 1 0]
+ [1 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0]
+ [1 0 0 0 1 0 0]]
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.95 accumulated f1 score: 0.6948412698412698
+f1 average: [0.77294372 0.47575758 0.         0.04545455 0.38636364 0.51969697
+ 0.        ]
+Time elapsed: 0.5085411071777344
+validation dataset batch: 30
+prediction logits:[[1 0 0 0 1 0 0]
+ [1 0 0 0 1 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 0 0 0]]
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.5416666666666666 accumulated f1 score: 0.6758064516129033
+f1 average: [0.78005952 0.47708333 0.         0.0625     0.38020833 0.46145833
+ 0.        ]
+Time elapsed: 0.1807546615600586
+validation dataset batch: 40
+prediction logits:[[0 0 1 1 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 0 0]
+ [0 1 0 0 0 0 0]]
+ground truth:[[0. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.8666666666666667 accumulated f1 score: 0.6847560975609756
+f1 average: [0.80419501 0.47063492 0.         0.11111111 0.43888889 0.47619048
+ 0.        ]
+Time elapsed: 0.1734931468963623
+validation dataset batch: 50
+prediction logits:[[1 0 0 0 1 1 0]
+ [0 0 0 0 1 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 0 0 0]]
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.708940242763772
+f1 average: [0.8014652  0.50238095 0.         0.08974359 0.45430403 0.49615385
+ 0.        ]
+Time elapsed: 0.25209856033325195
+validation dataset batch: 60
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 0 1 0]
+ [1 0 0 0 1 1 0]
+ [0 1 0 0 0 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 1.0 accumulated f1 score: 0.7338407494145198
+f1 average: [0.82242704 0.5235023  0.         0.07526882 0.47242704 0.54731183
+ 0.        ]
+Time elapsed: 0.1921989917755127
+validation dataset batch: 70
+prediction logits:[[1 0 0 0 1 0 0]
+ [1 0 0 0 1 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]]
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.7371730382293763
+f1 average: [0.82797619 0.53829365 0.         0.06481481 0.49973545 0.56666667
+ 0.        ]
+Time elapsed: 0.1858654022216797
+validation dataset batch: 80
+prediction logits:[[0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]
+ [1 0 0 0 1 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.7128306878306878
+f1 average: [0.80667828 0.52752613 0.         0.05691057 0.49610918 0.53617886
+ 0.        ]
+Time elapsed: 0.29916930198669434
+validation dataset batch: 90
+prediction logits:[[1 0 0 0 0 1 0]
+ [0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 0 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.375 accumulated f1 score: 0.6987833594976453
+f1 average: [0.7992236  0.48830228 0.01086957 0.05072464 0.49435818 0.53913043
+ 0.        ]
+Time elapsed: 0.1851046085357666
+validation dataset batch: 100
+prediction logits:[[0 1 0 0 1 1 0]
+ [1 0 0 0 1 1 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6964285714285715
+f1 average: [0.8031746  0.48127918 0.00980392 0.05555556 0.50602241 0.52973856
+ 0.        ]
+Time elapsed: 0.18440604209899902
+validation dataset batch: 110
+prediction logits:[[1 0 0 0 0 1 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 0 1 0]
+ [1 0 0 0 0 1 0]]
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 1. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.706885456885457
+f1 average: [0.81420068 0.51092687 0.00892857 0.05059524 0.50369898 0.53571429
+ 0.        ]
+Time elapsed: 0.18240714073181152
+validation dataset batch: 120
+prediction logits:[[0 1 0 0 0 1 0]
+ [0 1 0 0 0 1 0]
+ [1 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0]]
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.7057654466745376
+f1 average: [0.81666667 0.50320062 0.01639344 0.04644809 0.50339578 0.54098361
+ 0.        ]
+Time elapsed: 0.2929072380065918
+validation dataset batch: 130
+prediction logits:[[1 0 0 0 0 1 0]
+ [0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.5416666666666666 accumulated f1 score: 0.7080607051981098
+f1 average: [0.81735209 0.49891775 0.01515152 0.04292929 0.49909812 0.53914141
+ 0.        ]
+Time elapsed: 0.20242786407470703
+validation dataset batch: 140
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0]]
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.7031155015197568
+f1 average: [0.81230718 0.49312542 0.01408451 0.0399061  0.49862508 0.54201878
+ 0.        ]
+Time elapsed: 0.18785619735717773
+validation dataset batch: 150
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 1 0 0]
+ [1 0 0 0 1 1 0]
+ [1 0 0 0 1 1 0]]
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.7045096184169032
+f1 average: [0.81795113 0.48348997 0.01315789 0.0372807  0.49301378 0.53464912
+ 0.        ]
+Time elapsed: 0.1872539520263672
+validation dataset batch: 160
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 1 0 0]
+ [0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.7046435965690624
+f1 average: [0.82207525 0.49994121 0.01234568 0.03497942 0.47698413 0.51707819
+ 0.        ]
+Time elapsed: 0.789402961730957
+validation dataset batch: 170
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 0 1 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.7021790587580061
+f1 average: [0.82533223 0.49413068 0.01550388 0.03294574 0.47057032 0.51996124
+ 0.        ]
+Time elapsed: 0.18695497512817383
+validation dataset batch: 180
+prediction logits:[[1 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]
+ [1 0 0 0 0 0 0]]
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 1.0 accumulated f1 score: 0.7040844514601421
+f1 average: [0.82658294 0.50068027 0.01465201 0.03663004 0.47841444 0.52802198
+ 0.        ]
+Time elapsed: 0.21090078353881836
+validation dataset batch: 190
+prediction logits:[[0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 0 1 0]
+ [1 0 0 0 1 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5833333333333333 accumulated f1 score: 0.7027362253802044
+f1 average: [0.83204365 0.4952629  0.01388889 0.03993056 0.46478175 0.52395833
+ 0.        ]/miniconda/envs/py36/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/miniconda/envs/py36/lib/python3.6/site-packages/sklearn/metrics/classification.py:1439: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+/miniconda/envs/py36/lib/python3.6/site-packages/sklearn/metrics/classification.py:1439: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in samples with no true labels.
+  'recall', 'true', average, warn_for)
+/miniconda/envs/py36/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in samples with no predicted labels.
+  'precision', 'predicted', average, warn_for)
+
+Time elapsed: 0.2442479133605957
+validation dataset batch: 200
+prediction logits:[[1 0 0 0 1 1 0]
+ [0 0 1 1 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 1 1 0 0 0]]
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.7034588959962094
+f1 average: [0.83090523 0.50704856 0.01650165 0.05115512 0.45810938 0.52689769
+ 0.        ]
+Time elapsed: 0.19778037071228027
+validation dataset batch: 210
+prediction logits:[[0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [0 1 0 0 0 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.706730986233356
+f1 average: [0.8279425  0.5217655  0.01572327 0.04874214 0.45222372 0.53018868
+ 0.        ]
+Time elapsed: 0.19442224502563477
+validation dataset batch: 220
+prediction logits:[[0 1 0 0 0 1 0]
+ [1 0 0 0 0 1 0]
+ [1 0 0 0 0 1 0]
+ [1 0 0 0 0 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7499999999999999 accumulated f1 score: 0.7052951950010774
+f1 average: [0.82955813 0.51853282 0.01501502 0.04654655 0.44611755 0.53678679
+ 0.        ]
+Time elapsed: 0.18746137619018555
+validation dataset batch: 230
+prediction logits:[[1 0 0 0 1 1 0]
+ [1 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0]
+ [1 0 0 0 1 0 0]]
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.7079880437023294
+f1 average: [0.83374384 0.51112479 0.01436782 0.04885057 0.4455665  0.53864943
+ 0.        ]
+Time elapsed: 0.17753291130065918
+validation dataset batch: 240
+prediction logits:[[1 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 0 1 0]]
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.9166666666666666 accumulated f1 score: 0.7115639201738786
+f1 average: [0.83437623 0.5167257  0.0137741  0.04683196 0.44616293 0.54366391
+ 0.        ]
+Time elapsed: 0.19314146041870117
+validation dataset batch: 250
+prediction logits:[[0 1 0 0 0 0 0]
+ [1 0 0 0 1 1 0]
+ [1 0 0 0 0 1 0]
+ [1 0 0 0 1 0 0]]
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 1.0 accumulated f1 score: 0.7093435780686776
+f1 average: [0.8335034  0.51209373 0.01322751 0.04497354 0.44829932 0.54669312
+ 0.        ]
+Time elapsed: 0.16995573043823242
+validation dataset batch: 260
+prediction logits:[[0 1 0 0 0 0 0]
+ [0 0 0 0 0 0 0]
+ [1 0 0 0 0 1 0]
+ [0 1 0 0 0 0 0]]
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.7079228243021346
+f1 average: [0.83087968 0.51426754 0.01272265 0.043257   0.44569248 0.54363868
+ 0.        ]
+Time elapsed: 0.2850313186645508
+validation dataset batch: 270
+prediction logits:[[1 0 0 0 0 0 0]
+ [1 0 0 0 0 1 0]
+ [1 0 0 0 0 0 0]
+ [1 0 0 0 0 0 0]]
+ground truth:[[1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.7098444913020558
+f1 average: [0.83457633 0.51619398 0.0122549  0.04166667 0.44744398 0.54178922
+ 0.        ]
+Time elapsed: 0.1749885082244873
+validation dataset batch: 280
+prediction logits:[[1 0 0 0 1 1 0]
+ [1 0 0 0 0 0 0]
+ [0 1 0 0 0 0 0]
+ [1 0 0 0 0 1 0]]
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.8666666666666666 accumulated f1 score: 0.7101169293340112
+f1 average: [0.83750422 0.50852752 0.01536643 0.04018913 0.45521783 0.54137116
+ 0.        ]
+Time elapsed: 0.1760725975036621
+Finished Validation

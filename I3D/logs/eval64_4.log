@@ -1,0 +1,3175 @@
+load data: 1000
+loaded saved state_dict...
+validation dataset batch: 0
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 1.]]
+f1 score: 0.25 accumulated f1 score: 0.25
+Time elapsed: 7.198623418807983
+validation dataset batch: 1
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.4583333333333333
+Time elapsed: 0.4730808734893799
+validation dataset batch: 2
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]]
+f1 score: 0.5416666666666666 accumulated f1 score: 0.4861111111111111
+Time elapsed: 1.2407197952270508
+validation dataset batch: 3
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.4895833333333333
+Time elapsed: 1.152113676071167
+validation dataset batch: 4
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.5566666666666666
+Time elapsed: 0.30821943283081055
+validation dataset batch: 5
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.5333333333333333
+Time elapsed: 0.29538655281066895
+validation dataset batch: 6
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.557142857142857
+Time elapsed: 0.30972838401794434
+validation dataset batch: 7
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.5812499999999999
+Time elapsed: 0.28589749336242676
+validation dataset batch: 8
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.7749999999999999 accumulated f1 score: 0.6027777777777776
+Time elapsed: 0.2907371520996094
+validation dataset batch: 9
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6049999999999999
+Time elapsed: 0.28732967376708984
+validation dataset batch: 10
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6022727272727272
+Time elapsed: 0.29669809341430664
+validation dataset batch: 11
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5833333333333333 accumulated f1 score: 0.6006944444444443
+Time elapsed: 0.29551029205322266
+validation dataset batch: 12
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6057692307692307
+Time elapsed: 0.29338717460632324
+validation dataset batch: 13
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.8166666666666667 accumulated f1 score: 0.6208333333333333
+Time elapsed: 0.2948944568634033
+validation dataset batch: 14
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.5333333333333333 accumulated f1 score: 0.615
+Time elapsed: 0.2916274070739746
+validation dataset batch: 15
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5833333333333333 accumulated f1 score: 0.6130208333333333
+Time elapsed: 0.2840425968170166
+validation dataset batch: 16
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6014705882352941
+Time elapsed: 0.32288455963134766
+validation dataset batch: 17
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.8666666666666667 accumulated f1 score: 0.6162037037037037
+Time elapsed: 0.31684255599975586
+validation dataset batch: 18
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6166666666666667
+Time elapsed: 0.2774791717529297
+validation dataset batch: 19
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6066666666666667
+Time elapsed: 0.26183509826660156
+validation dataset batch: 20
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.617063492063492
+Time elapsed: 0.2831559181213379
+validation dataset batch: 21
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6151515151515151
+Time elapsed: 0.3233358860015869
+validation dataset batch: 22
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6101449275362318
+Time elapsed: 0.29074764251708984
+validation dataset batch: 23
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6020833333333333
+Time elapsed: 0.28473758697509766
+validation dataset batch: 24
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7250000000000001 accumulated f1 score: 0.607
+Time elapsed: 0.290630578994751
+validation dataset batch: 25
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6153846153846153
+Time elapsed: 0.3024768829345703
+validation dataset batch: 26
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.8999999999999999 accumulated f1 score: 0.6259259259259259
+Time elapsed: 0.299271821975708
+validation dataset batch: 27
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.6333333333333333 accumulated f1 score: 0.6261904761904761
+Time elapsed: 0.287489652633667
+validation dataset batch: 28
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6304597701149425
+Time elapsed: 0.3012714385986328
+validation dataset batch: 29
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.628611111111111
+Time elapsed: 0.3068521022796631
+validation dataset batch: 30
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7142857142857142 accumulated f1 score: 0.6313748079877112
+Time elapsed: 0.31052398681640625
+validation dataset batch: 31
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.55 accumulated f1 score: 0.6288318452380952
+Time elapsed: 0.3181178569793701
+validation dataset batch: 32
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8666666666666667 accumulated f1 score: 0.6360389610389611
+Time elapsed: 0.3771078586578369
+validation dataset batch: 33
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.5833333333333333 accumulated f1 score: 0.6344887955182072
+Time elapsed: 0.2989006042480469
+validation dataset batch: 34
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.45 accumulated f1 score: 0.6292176870748298
+Time elapsed: 0.6330130100250244
+validation dataset batch: 35
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6325727513227513
+Time elapsed: 0.787940263748169
+validation dataset batch: 36
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6343951093951093
+Time elapsed: 0.3736908435821533
+validation dataset batch: 37
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.7999999999999999 accumulated f1 score: 0.6387531328320801
+Time elapsed: 0.3620872497558594
+validation dataset batch: 38
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 1. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.5166666666666666 accumulated f1 score: 0.6356227106227106
+Time elapsed: 0.32144761085510254
+validation dataset batch: 39
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.875 accumulated f1 score: 0.6416071428571428
+Time elapsed: 0.29259705543518066
+validation dataset batch: 40
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7749999999999999 accumulated f1 score: 0.6448606271777002
+Time elapsed: 0.31152963638305664
+validation dataset batch: 41
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.4916666666666667 accumulated f1 score: 0.6412131519274376
+Time elapsed: 0.2886979579925537
+validation dataset batch: 42
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6000000000000001 accumulated f1 score: 0.6402547065337763
+Time elapsed: 0.29926228523254395
+validation dataset batch: 43
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.641612554112554
+Time elapsed: 0.3133249282836914
+validation dataset batch: 44
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.8166666666666667 accumulated f1 score: 0.6455026455026455
+Time elapsed: 0.31655001640319824
+validation dataset batch: 45
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6494047619047618
+Time elapsed: 0.2876923084259033
+validation dataset batch: 46
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6515450861195541
+Time elapsed: 0.2859830856323242
+validation dataset batch: 47
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6509920634920635
+Time elapsed: 0.29006505012512207
+validation dataset batch: 48
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 0. 0. 0. 0. 0. 1.]]
+f1 score: 0.45 accumulated f1 score: 0.6468901846452867
+Time elapsed: 0.2959709167480469
+validation dataset batch: 49
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6464523809523809
+Time elapsed: 0.3213019371032715
+validation dataset batch: 50
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.45 accumulated f1 score: 0.6426003734827264
+Time elapsed: 0.3203158378601074
+validation dataset batch: 51
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.55 accumulated f1 score: 0.640819597069597
+Time elapsed: 0.2932422161102295
+validation dataset batch: 52
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7083333333333333 accumulated f1 score: 0.6420934411500449
+Time elapsed: 0.31421852111816406
+validation dataset batch: 53
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6408509700176367
+Time elapsed: 0.3227541446685791
+validation dataset batch: 54
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.875 accumulated f1 score: 0.6451082251082251
+Time elapsed: 0.3992424011230469
+validation dataset batch: 55
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.6477253401360544
+Time elapsed: 0.4834318161010742
+validation dataset batch: 56
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7083333333333333 accumulated f1 score: 0.6487886382623225
+Time elapsed: 0.3053550720214844
+validation dataset batch: 57
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.675 accumulated f1 score: 0.6492405582922823
+Time elapsed: 0.2914290428161621
+validation dataset batch: 58
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.45 accumulated f1 score: 0.645863599677159
+Time elapsed: 0.30258798599243164
+validation dataset batch: 59
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6453769841269842
+Time elapsed: 0.29406142234802246
+validation dataset batch: 60
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.55 accumulated f1 score: 0.6438134270101483
+Time elapsed: 0.2788221836090088
+validation dataset batch: 61
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.875 accumulated f1 score: 0.647542242703533
+Time elapsed: 0.29210567474365234
+validation dataset batch: 62
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6478458049886621
+Time elapsed: 0.2910420894622803
+validation dataset batch: 63
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6 accumulated f1 score: 0.6470982142857142
+Time elapsed: 0.28809547424316406
+validation dataset batch: 64
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 1. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8666666666666667 accumulated f1 score: 0.6504761904761904
+Time elapsed: 0.3016781806945801
+validation dataset batch: 65
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6481962481962481
+Time elapsed: 0.3024556636810303
+validation dataset batch: 66
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6471037668798862
+Time elapsed: 0.35407185554504395
+validation dataset batch: 67
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.65 accumulated f1 score: 0.6471463585434174
+Time elapsed: 0.28822851181030273
+validation dataset batch: 68
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 1.0 accumulated f1 score: 0.6522601794340924
+Time elapsed: 0.3031001091003418
+validation dataset batch: 69
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6517517006802721
+Time elapsed: 0.28888630867004395
+validation dataset batch: 70
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7416666666666667 accumulated f1 score: 0.6530181086519115
+Time elapsed: 0.29699182510375977
+validation dataset batch: 71
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.375 accumulated f1 score: 0.649156746031746
+Time elapsed: 0.30397701263427734
+validation dataset batch: 72
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6481409001956947
+Time elapsed: 0.28742146492004395
+validation dataset batch: 73
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.95 accumulated f1 score: 0.6522200772200772
+Time elapsed: 0.3217320442199707
+validation dataset batch: 74
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6524126984126984
+Time elapsed: 0.30079102516174316
+validation dataset batch: 75
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7083333333333333 accumulated f1 score: 0.6531484962406016
+Time elapsed: 0.2869529724121094
+validation dataset batch: 76
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6521335807050094
+Time elapsed: 0.27965426445007324
+validation dataset batch: 77
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.375 accumulated f1 score: 0.6485805860805862
+Time elapsed: 0.2878386974334717
+validation dataset batch: 78
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6476491862567814
+Time elapsed: 0.2977602481842041
+validation dataset batch: 79
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6473660714285714
+Time elapsed: 0.284578800201416
+validation dataset batch: 80
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6495590828924163
+Time elapsed: 0.34707117080688477
+validation dataset batch: 81
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.7000000000000001 accumulated f1 score: 0.6501742160278746
+Time elapsed: 0.2723374366760254
+validation dataset batch: 82
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8999999999999999 accumulated f1 score: 0.653184165232358
+Time elapsed: 0.35845041275024414
+validation dataset batch: 83
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.653344671201814
+Time elapsed: 0.30847716331481934
+validation dataset batch: 84
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6535014005602241
+Time elapsed: 0.309201717376709
+validation dataset batch: 85
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.45 accumulated f1 score: 0.6511351052048726
+Time elapsed: 0.29554128646850586
+validation dataset batch: 86
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6493979200875752
+Time elapsed: 0.31044578552246094
+validation dataset batch: 87
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.45833333333333326 accumulated f1 score: 0.6472267316017316
+Time elapsed: 0.3296186923980713
+validation dataset batch: 88
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.2 accumulated f1 score: 0.6422017121455325
+Time elapsed: 0.37104320526123047
+validation dataset batch: 89
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5666666666666667 accumulated f1 score: 0.641362433862434
+Time elapsed: 0.29979538917541504
+validation dataset batch: 90
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6388932496075354
+Time elapsed: 0.2831075191497803
+validation dataset batch: 91
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.45 accumulated f1 score: 0.6368400621118013
+Time elapsed: 0.29048728942871094
+validation dataset batch: 92
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.725 accumulated f1 score: 0.6377880184331798
+Time elapsed: 0.30046939849853516
+validation dataset batch: 93
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6916666666666667 accumulated f1 score: 0.6383611955420467
+Time elapsed: 0.2976360321044922
+validation dataset batch: 94
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6395363408521305
+Time elapsed: 0.30812573432922363
+validation dataset batch: 95
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.4 accumulated f1 score: 0.6370411706349206
+Time elapsed: 0.30162477493286133
+validation dataset batch: 96
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6356283750613647
+Time elapsed: 0.2905302047729492
+validation dataset batch: 97
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.8999999999999999 accumulated f1 score: 0.6383260447035957
+Time elapsed: 0.28287625312805176
+validation dataset batch: 98
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.4 accumulated f1 score: 0.6359187109187109
+Time elapsed: 0.34102797508239746
+validation dataset batch: 99
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6378095238095238
+Time elapsed: 0.30350732803344727
+validation dataset batch: 100
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.875 accumulated f1 score: 0.6401579443658652
+Time elapsed: 0.3050568103790283
+validation dataset batch: 101
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.6416433239962652
+Time elapsed: 0.2974238395690918
+validation dataset batch: 102
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6402681460933889
+Time elapsed: 0.3285839557647705
+validation dataset batch: 103
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.875 accumulated f1 score: 0.6425251831501833
+Time elapsed: 0.4339144229888916
+validation dataset batch: 104
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.675 accumulated f1 score: 0.6428344671201814
+Time elapsed: 0.3171076774597168
+validation dataset batch: 105
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.6442385444743937
+Time elapsed: 0.28110432624816895
+validation dataset batch: 106
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5416666666666666 accumulated f1 score: 0.6432799287939477
+Time elapsed: 0.27922511100769043
+validation dataset batch: 107
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.4 accumulated f1 score: 0.6410273368606704
+Time elapsed: 0.3021523952484131
+validation dataset batch: 108
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.325 accumulated f1 score: 0.6381280034949762
+Time elapsed: 0.3079235553741455
+validation dataset batch: 109
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6375541125541128
+Time elapsed: 0.2958800792694092
+validation dataset batch: 110
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]]
+f1 score: 0.5416666666666666 accumulated f1 score: 0.636690261690262
+Time elapsed: 0.3030533790588379
+validation dataset batch: 111
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6365114795918367
+Time elapsed: 0.2897379398345947
+validation dataset batch: 112
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.636409608091024
+Time elapsed: 0.28732728958129883
+validation dataset batch: 113
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.638063909774436
+Time elapsed: 0.32718610763549805
+validation dataset batch: 114
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6386024844720497
+Time elapsed: 0.2980506420135498
+validation dataset batch: 115
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.95 accumulated f1 score: 0.6412869458128079
+Time elapsed: 0.2917454242706299
+validation dataset batch: 116
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.45 accumulated f1 score: 0.6396520146520147
+Time elapsed: 0.2972686290740967
+validation dataset batch: 117
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.675 accumulated f1 score: 0.639951573849879
+Time elapsed: 0.32897424697875977
+validation dataset batch: 118
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.5666666666666667 accumulated f1 score: 0.6393357342937175
+Time elapsed: 0.3023257255554199
+validation dataset batch: 119
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.525 accumulated f1 score: 0.6383829365079364
+Time elapsed: 0.3326284885406494
+validation dataset batch: 120
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.875 accumulated f1 score: 0.6403384494293585
+Time elapsed: 0.3110077381134033
+validation dataset batch: 121
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.525 accumulated f1 score: 0.6393930523028883
+Time elapsed: 0.3058433532714844
+validation dataset batch: 122
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6382597754548974
+Time elapsed: 0.29123759269714355
+validation dataset batch: 123
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.638152841781874
+Time elapsed: 0.29466772079467773
+validation dataset batch: 124
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6370476190476191
+Time elapsed: 0.29682159423828125
+validation dataset batch: 125
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.475 accumulated f1 score: 0.6357615268329554
+Time elapsed: 0.3366513252258301
+validation dataset batch: 126
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]]
+f1 score: 0.55 accumulated f1 score: 0.6350862392200974
+Time elapsed: 0.296616792678833
+validation dataset batch: 127
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8 accumulated f1 score: 0.6363746279761905
+Time elapsed: 0.31147003173828125
+validation dataset batch: 128
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5166666666666666 accumulated f1 score: 0.6354466592838686
+Time elapsed: 0.31456708908081055
+validation dataset batch: 129
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.634981684981685
+Time elapsed: 0.2915990352630615
+validation dataset batch: 130
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6349054889131224
+Time elapsed: 0.25885605812072754
+validation dataset batch: 131
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]]
+f1 score: 0.8666666666666666 accumulated f1 score: 0.6366612554112554
+Time elapsed: 0.2804524898529053
+validation dataset batch: 132
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.638077336197637
+Time elapsed: 0.2931702136993408
+validation dataset batch: 133
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6382906894100925
+Time elapsed: 0.2878694534301758
+validation dataset batch: 134
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.7416666666666667 accumulated f1 score: 0.6390564373897707
+Time elapsed: 0.2966287136077881
+validation dataset batch: 135
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.875 accumulated f1 score: 0.6407913165266106
+Time elapsed: 0.2834584712982178
+validation dataset batch: 136
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.725 accumulated f1 score: 0.6414059784497741
+Time elapsed: 0.29653239250183105
+validation dataset batch: 137
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.29166666666666663 accumulated f1 score: 0.638871635610766
+Time elapsed: 0.2808215618133545
+validation dataset batch: 138
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8999999999999999 accumulated f1 score: 0.6407502569373074
+Time elapsed: 0.3011915683746338
+validation dataset batch: 139
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.35 accumulated f1 score: 0.638673469387755
+Time elapsed: 0.295316219329834
+validation dataset batch: 140
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6376899696048632
+Time elapsed: 0.3050119876861572
+validation dataset batch: 141
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.525 accumulated f1 score: 0.6368963782696178
+Time elapsed: 0.2919151782989502
+validation dataset batch: 142
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5809523809523809 accumulated f1 score: 0.6365051615051615
+Time elapsed: 0.2915623188018799
+validation dataset batch: 143
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6369460978835978
+Time elapsed: 0.30892252922058105
+validation dataset batch: 144
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6354269293924466
+Time elapsed: 0.3217768669128418
+validation dataset batch: 145
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.8666666666666667 accumulated f1 score: 0.6370107632093933
+Time elapsed: 0.5169966220855713
+validation dataset batch: 146
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.95 accumulated f1 score: 0.6391399416909621
+Time elapsed: 0.32428455352783203
+validation dataset batch: 147
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6398889961389961
+Time elapsed: 0.2886936664581299
+validation dataset batch: 148
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]
+ [0. 1. 1. 0. 0. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6383908596995844
+Time elapsed: 0.2989046573638916
+validation dataset batch: 149
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6383015873015871
+Time elapsed: 0.28157854080200195
+validation dataset batch: 150
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6390413118889939
+Time elapsed: 0.30294060707092285
+validation dataset batch: 151
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5916666666666667 accumulated f1 score: 0.6387296365914787
+Time elapsed: 0.2862083911895752
+validation dataset batch: 152
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6385854341736694
+Time elapsed: 0.31335020065307617
+validation dataset batch: 153
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6376855287569573
+Time elapsed: 0.3117525577545166
+validation dataset batch: 154
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6372811059907835
+Time elapsed: 0.28078126907348633
+validation dataset batch: 155
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.25 accumulated f1 score: 0.6347985347985349
+Time elapsed: 0.29262542724609375
+validation dataset batch: 156
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 1.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.325 accumulated f1 score: 0.6328252957233849
+Time elapsed: 0.28375887870788574
+validation dataset batch: 157
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]]
+f1 score: 0.29166666666666663 accumulated f1 score: 0.630666063893912
+Time elapsed: 0.29951977729797363
+validation dataset batch: 158
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6308924827792752
+Time elapsed: 0.2925558090209961
+validation dataset batch: 159
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 1. 1. 0. 0.]]
+f1 score: 0.7999999999999999 accumulated f1 score: 0.6319494047619048
+Time elapsed: 0.31879258155822754
+validation dataset batch: 160
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6916666666666667 accumulated f1 score: 0.6323203194321206
+Time elapsed: 0.31210970878601074
+validation dataset batch: 161
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.6 accumulated f1 score: 0.6321208112874779
+Time elapsed: 0.3112175464630127
+validation dataset batch: 162
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6325372480280456
+Time elapsed: 0.28984951972961426
+validation dataset batch: 163
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6327453542392566
+Time elapsed: 0.31987714767456055
+validation dataset batch: 164
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.6416666666666666 accumulated f1 score: 0.6327994227994228
+Time elapsed: 0.3016326427459717
+validation dataset batch: 165
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7416666666666667 accumulated f1 score: 0.6334552495697073
+Time elapsed: 0.2931692600250244
+validation dataset batch: 166
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 1. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6 accumulated f1 score: 0.6332549187339607
+Time elapsed: 0.31049370765686035
+validation dataset batch: 167
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.42500000000000004 accumulated f1 score: 0.6320153061224489
+Time elapsed: 0.3077583312988281
+validation dataset batch: 168
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.95 accumulated f1 score: 0.6338968723584109
+Time elapsed: 0.2951664924621582
+validation dataset batch: 169
+prediction logits:tensor([[0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6338445378151261
+Time elapsed: 0.2967967987060547
+validation dataset batch: 170
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.95 accumulated f1 score: 0.6356934001670843
+Time elapsed: 0.2911829948425293
+validation dataset batch: 171
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.375 accumulated f1 score: 0.6341777408637873
+Time elapsed: 0.2944958209991455
+validation dataset batch: 172
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]]
+f1 score: 0.7999999999999999 accumulated f1 score: 0.6351362510322048
+Time elapsed: 0.2909419536590576
+validation dataset batch: 173
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6343596059113301
+Time elapsed: 0.2834196090698242
+validation dataset batch: 174
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.65 accumulated f1 score: 0.6344489795918367
+Time elapsed: 0.2964670658111572
+validation dataset batch: 175
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5416666666666666 accumulated f1 score: 0.6339218073593074
+Time elapsed: 0.2968020439147949
+validation dataset batch: 176
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.675 accumulated f1 score: 0.634153887543718
+Time elapsed: 0.29232335090637207
+validation dataset batch: 177
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6000000000000001 accumulated f1 score: 0.6339620117710005
+Time elapsed: 0.34224557876586914
+validation dataset batch: 178
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.85 accumulated f1 score: 0.635168927906358
+Time elapsed: 0.6730031967163086
+validation dataset batch: 179
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6350661375661376
+Time elapsed: 0.3339560031890869
+validation dataset batch: 180
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6357011312812418
+Time elapsed: 0.2933659553527832
+validation dataset batch: 181
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 1.0 accumulated f1 score: 0.6377027734170592
+Time elapsed: 0.2955749034881592
+validation dataset batch: 182
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.325 accumulated f1 score: 0.6359940150923757
+Time elapsed: 0.2888054847717285
+validation dataset batch: 183
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6363418737060041
+Time elapsed: 0.2903175354003906
+validation dataset batch: 184
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6366859716859717
+Time elapsed: 0.28883981704711914
+validation dataset batch: 185
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.525 accumulated f1 score: 0.6360855094726063
+Time elapsed: 0.28017711639404297
+validation dataset batch: 186
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.525 accumulated f1 score: 0.6354914693149988
+Time elapsed: 0.2854142189025879
+validation dataset batch: 187
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6351697061803445
+Time elapsed: 0.29410767555236816
+validation dataset batch: 188
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7666666666666666 accumulated f1 score: 0.6358654572940288
+Time elapsed: 0.2824718952178955
+validation dataset batch: 189
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7083333333333333 accumulated f1 score: 0.6362468671679198
+Time elapsed: 0.29177212715148926
+validation dataset batch: 190
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 1. 0. 0. 1. 1. 0.]]
+f1 score: 0.7559523809523809 accumulated f1 score: 0.6368735976065819
+Time elapsed: 0.32884740829467773
+validation dataset batch: 191
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6368117559523809
+Time elapsed: 0.29529714584350586
+validation dataset batch: 192
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.725 accumulated f1 score: 0.6372686898593635
+Time elapsed: 0.2804086208343506
+validation dataset batch: 193
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6372054491899853
+Time elapsed: 0.2986576557159424
+validation dataset batch: 194
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.7416666666666667 accumulated f1 score: 0.6377411477411478
+Time elapsed: 0.31608104705810547
+validation dataset batch: 195
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6366132167152575
+Time elapsed: 0.3044908046722412
+validation dataset batch: 196
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 1. 1. 0.]
+ [0. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.3392857142857143 accumulated f1 score: 0.6351039400531786
+Time elapsed: 0.28917980194091797
+validation dataset batch: 197
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6344215969215969
+Time elapsed: 0.2975306510925293
+validation dataset batch: 198
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.8 accumulated f1 score: 0.6352536491983729
+Time elapsed: 0.2921791076660156
+validation dataset batch: 199
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7333333333333334 accumulated f1 score: 0.6357440476190476
+Time elapsed: 0.2874581813812256
+validation dataset batch: 200
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.8166666666666667 accumulated f1 score: 0.6366441601516228
+Time elapsed: 0.2951240539550781
+validation dataset batch: 201
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.6374115983026873
+Time elapsed: 0.2925736904144287
+validation dataset batch: 202
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 1. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.637966220971147
+Time elapsed: 0.30991172790527344
+validation dataset batch: 203
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 1. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.5166666666666666 accumulated f1 score: 0.6373716153127917
+Time elapsed: 0.29618144035339355
+validation dataset batch: 204
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]
+ [0. 1. 1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 1.]]
+f1 score: 0.3333333333333333 accumulated f1 score: 0.6358885017421602
+Time elapsed: 0.3820779323577881
+validation dataset batch: 205
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.35 accumulated f1 score: 0.6345006934812759
+Time elapsed: 0.28473806381225586
+validation dataset batch: 206
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.3333333333333333 accumulated f1 score: 0.6330457786979525
+Time elapsed: 0.28224968910217285
+validation dataset batch: 207
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 1. 0.]]
+f1 score: 0.7499999999999999 accumulated f1 score: 0.6336080586080587
+Time elapsed: 0.2916276454925537
+validation dataset batch: 208
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.25 accumulated f1 score: 0.6317726133515608
+Time elapsed: 0.28631138801574707
+validation dataset batch: 209
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.6325340136054421
+Time elapsed: 0.34454798698425293
+validation dataset batch: 210
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.6332881967953059
+Time elapsed: 0.3583071231842041
+validation dataset batch: 211
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.525 accumulated f1 score: 0.632777403414196
+Time elapsed: 0.2881925106048584
+validation dataset batch: 212
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6916666666666667 accumulated f1 score: 0.6330538788285268
+Time elapsed: 0.30681657791137695
+validation dataset batch: 213
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6339508233199823
+Time elapsed: 0.28591179847717285
+validation dataset batch: 214
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6348394241417499
+Time elapsed: 0.29715919494628906
+validation dataset batch: 215
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.634215167548501
+Time elapsed: 0.2845771312713623
+validation dataset batch: 216
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6345183234584156
+Time elapsed: 0.288100004196167
+validation dataset batch: 217
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 1.]]
+f1 score: 0.65 accumulated f1 score: 0.6345893403232854
+Time elapsed: 0.33471202850341797
+validation dataset batch: 218
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.65 accumulated f1 score: 0.6346597086323115
+Time elapsed: 0.339369535446167
+validation dataset batch: 219
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8 accumulated f1 score: 0.6354112554112555
+Time elapsed: 0.29712605476379395
+validation dataset batch: 220
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7250000000000001 accumulated f1 score: 0.6358166343460461
+Time elapsed: 0.3007984161376953
+validation dataset batch: 221
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]]
+f1 score: 0.5333333333333333 accumulated f1 score: 0.6353549978549979
+Time elapsed: 0.29531168937683105
+validation dataset batch: 222
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6352711936792654
+Time elapsed: 0.301694393157959
+validation dataset batch: 223
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7833333333333333 accumulated f1 score: 0.6359321853741496
+Time elapsed: 0.2984611988067627
+validation dataset batch: 224
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.225 accumulated f1 score: 0.6341058201058201
+Time elapsed: 0.3205244541168213
+validation dataset batch: 225
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 1. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.375 accumulated f1 score: 0.6329593341761484
+Time elapsed: 0.35044336318969727
+validation dataset batch: 226
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6331078246276484
+Time elapsed: 0.35923242568969727
+validation dataset batch: 227
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]]
+f1 score: 0.7999999999999999 accumulated f1 score: 0.6338398078529658
+Time elapsed: 0.28804636001586914
+validation dataset batch: 228
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6337648159700562
+Time elapsed: 0.29647064208984375
+validation dataset batch: 229
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 1.]]
+f1 score: 0.625 accumulated f1 score: 0.6337267080745342
+Time elapsed: 0.2969827651977539
+validation dataset batch: 230
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.5666666666666667 accumulated f1 score: 0.6334364048649763
+Time elapsed: 0.28632593154907227
+validation dataset batch: 231
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6331845238095238
+Time elapsed: 0.4122965335845947
+validation dataset batch: 232
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.633471285509912
+Time elapsed: 0.28424835205078125
+validation dataset batch: 233
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.65 accumulated f1 score: 0.6335419210419211
+Time elapsed: 0.27330660820007324
+validation dataset batch: 234
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6335055724417428
+Time elapsed: 0.29438304901123047
+validation dataset batch: 235
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6339991928974981
+Time elapsed: 0.29261302947998047
+validation dataset batch: 236
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6348051034759896
+Time elapsed: 0.2898738384246826
+validation dataset batch: 237
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 1.]]
+f1 score: 0.525 accumulated f1 score: 0.6343437374949981
+Time elapsed: 0.304121732711792
+validation dataset batch: 238
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6351414624427177
+Time elapsed: 0.29642200469970703
+validation dataset batch: 239
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6350992063492064
+Time elapsed: 0.2905545234680176
+validation dataset batch: 240
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 1. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.6083333333333334 accumulated f1 score: 0.6349881446354475
+Time elapsed: 0.32850098609924316
+validation dataset batch: 241
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6344303423848878
+Time elapsed: 0.40006041526794434
+validation dataset batch: 242
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6349059376837154
+Time elapsed: 0.2851226329803467
+validation dataset batch: 243
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.8999999999999999 accumulated f1 score: 0.6359923887587823
+Time elapsed: 0.29639697074890137
+validation dataset batch: 244
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7250000000000001 accumulated f1 score: 0.6363556851311953
+Time elapsed: 0.3137331008911133
+validation dataset batch: 245
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.6368176538908246
+Time elapsed: 0.29890012741088867
+validation dataset batch: 246
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]
+ [0. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.42500000000000004 accumulated f1 score: 0.63596009253904
+Time elapsed: 0.4551427364349365
+validation dataset batch: 247
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7749999999999999 accumulated f1 score: 0.636520737327189
+Time elapsed: 0.3159966468811035
+validation dataset batch: 248
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.42500000000000004 accumulated f1 score: 0.6356712564543889
+Time elapsed: 0.3079969882965088
+validation dataset batch: 249
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6354285714285713
+Time elapsed: 0.28248143196105957
+validation dataset batch: 250
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.634889015367103
+Time elapsed: 0.2909853458404541
+validation dataset batch: 251
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.65 accumulated f1 score: 0.6349489795918367
+Time elapsed: 0.2970914840698242
+validation dataset batch: 252
+prediction logits:tensor([[0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.2 accumulated f1 score: 0.6332298136645963
+Time elapsed: 0.3008451461791992
+validation dataset batch: 253
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.75 accumulated f1 score: 0.633689538807649
+Time elapsed: 0.3226442337036133
+validation dataset batch: 254
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6339495798319327
+Time elapsed: 0.2921783924102783
+validation dataset batch: 255
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.5 accumulated f1 score: 0.6334263392857142
+Time elapsed: 0.2845141887664795
+validation dataset batch: 256
+prediction logits:tensor([[0, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6336853807670927
+Time elapsed: 0.2779121398925781
+validation dataset batch: 257
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.7749999999999999 accumulated f1 score: 0.6342331118493909
+Time elapsed: 0.3041830062866211
+validation dataset batch: 258
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.375 accumulated f1 score: 0.6332322118036404
+Time elapsed: 0.4437272548675537
+validation dataset batch: 259
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 1.0 accumulated f1 score: 0.6346428571428572
+Time elapsed: 0.2960317134857178
+validation dataset batch: 260
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.8666666666666667 accumulated f1 score: 0.6355318372559752
+Time elapsed: 0.2992100715637207
+validation dataset batch: 261
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6354916394038531
+Time elapsed: 0.3005390167236328
+validation dataset batch: 262
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7083333333333333 accumulated f1 score: 0.6357686040195546
+Time elapsed: 0.3056299686431885
+validation dataset batch: 263
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6364853896103896
+Time elapsed: 0.3085057735443115
+validation dataset batch: 264
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8999999999999999 accumulated f1 score: 0.6374797843665768
+Time elapsed: 0.27837038040161133
+validation dataset batch: 265
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.55 accumulated f1 score: 0.6371509129967776
+Time elapsed: 0.2769918441772461
+validation dataset batch: 266
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.575 accumulated f1 score: 0.6369181380417335
+Time elapsed: 0.29056382179260254
+validation dataset batch: 267
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]]
+f1 score: 0.7916666666666666 accumulated f1 score: 0.6374955579246624
+Time elapsed: 0.299893856048584
+validation dataset batch: 268
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.825 accumulated f1 score: 0.6381926004602584
+Time elapsed: 0.2968735694885254
+validation dataset batch: 269
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 1. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.6166666666666667 accumulated f1 score: 0.6381128747795414
+Time elapsed: 0.28330397605895996
+validation dataset batch: 270
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 1. 1. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]/miniconda/envs/py36/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in samples with no predicted labels.
+  'precision', 'predicted', average, warn_for)
+/miniconda/envs/py36/lib/python3.6/site-packages/sklearn/metrics/classification.py:1439: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in samples with no true labels.
+  'recall', 'true', average, warn_for)
+
+f1 score: 0.7416666666666667 accumulated f1 score: 0.638494992092778
+Time elapsed: 0.3008100986480713
+validation dataset batch: 271
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.3666666666666667 accumulated f1 score: 0.6374956232492996
+Time elapsed: 0.2868647575378418
+validation dataset batch: 272
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 1.0 accumulated f1 score: 0.6388234781091924
+Time elapsed: 0.2946951389312744
+validation dataset batch: 273
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.4 accumulated f1 score: 0.637951859575947
+Time elapsed: 0.38477230072021484
+validation dataset batch: 274
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 1. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6381774891774893
+Time elapsed: 0.2831759452819824
+validation dataset batch: 275
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 1. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.6666666666666666 accumulated f1 score: 0.6382807108350586
+Time elapsed: 0.2836332321166992
+validation dataset batch: 276
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.41666666666666663 accumulated f1 score: 0.6374806601340898
+Time elapsed: 0.2794318199157715
+validation dataset batch: 277
+prediction logits:tensor([[1, 0, 0, 0, 0, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]]
+f1 score: 0.2 accumulated f1 score: 0.6359069886947585
+Time elapsed: 0.2785205841064453
+validation dataset batch: 278
+prediction logits:tensor([[1, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.8999999999999999 accumulated f1 score: 0.6368535586277522
+Time elapsed: 0.2823171615600586
+validation dataset batch: 279
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.45 accumulated f1 score: 0.636186224489796
+Time elapsed: 0.2867465019226074
+validation dataset batch: 280
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 1. 0.]]
+f1 score: 0.625 accumulated f1 score: 0.6361464158617184
+Time elapsed: 0.27759528160095215
+validation dataset batch: 281
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]]
+f1 score: 0.8500000000000001 accumulated f1 score: 0.6369047619047619
+Time elapsed: 0.2855496406555176
+validation dataset batch: 282
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.7 accumulated f1 score: 0.6371277132761233
+Time elapsed: 0.27828311920166016
+validation dataset batch: 283
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[0. 0. 0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.4 accumulated f1 score: 0.6362927565392354
+Time elapsed: 0.2813425064086914
+validation dataset batch: 284
+prediction logits:tensor([[0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 1. 0. 0. 1. 0.]]
+f1 score: 0.3333333333333333 accumulated f1 score: 0.6352297410192146
+Time elapsed: 0.2838432788848877
+validation dataset batch: 285
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 1, 1, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 1. 1. 0.]]
+f1 score: 0.55 accumulated f1 score: 0.6349317349317349
+Time elapsed: 0.2793464660644531
+validation dataset batch: 286
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 0. 0. 0.]
+ [1. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0. 0. 0.]]
+f1 score: 0.5416666666666666 accumulated f1 score: 0.6346067695370832
+Time elapsed: 0.28069329261779785
+validation dataset batch: 287
+prediction logits:tensor([[1, 0, 0, 0, 1, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 1, 0],
+        [1, 0, 0, 0, 0, 0, 0]], dtype=torch.uint8)
+ground truth:[[1. 0. 0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0. 1. 0.]]
+f1 score: 0.5666666666666667 accumulated f1 score: 0.6343708664021164
+Time elapsed: 0.2780475616455078
+Finished Validation

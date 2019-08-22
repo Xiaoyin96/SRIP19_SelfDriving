@@ -1,10 +1,10 @@
 # SRIP19: Self-Driving and Multi-task Learning
 ## Content
-+ BDD_action_gt: Use IMU and GPS info from BDD dataset to generate single action ground truth.
-+ multiple_action_labels: Use AWS Mturk to label multiple actions and reasons of selected 12k BDD videos.
-+ data_info: contains names of train, test and validation datasets.
-+ mask_rcnn: Mask-RCNN model, forker from Facebook AI group and modified with action prediction.
-+ I3D: inflated Conv3D model, adapted to Pytorch 1.0 and our new annotated BDD multi-action dataset.
++ [BDD_action_gt](./BDD_action_gt): Use IMU and GPS info from BDD dataset to generate single action ground truth.
++ [multiple_action_labels](./multiple_action_label): Use AWS Mturk to label multiple actions and reasons of selected 12k BDD videos.
++ [data_info](./data_info): contains names of train, test and validation datasets.
++ [mask-rcnn](./mask-rcnn): Mask-RCNN model, forker from Facebook AI group and modified with action prediction.
++ [I3D](./I3D): inflated Conv3D model, adapted to Pytorch 1.0 and our new annotated BDD multi-action dataset.
 ## Papers for reference
 ### Self-Driving Review
 + [Deep Multi-modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges.](https://arxiv.org/pdf/1902.07830.pdf)

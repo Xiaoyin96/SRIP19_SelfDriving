@@ -20,7 +20,7 @@ import time
 from src.i3res import I3ResNet
 from collections import OrderedDict
 
-from bdd_dataset_32 import BDD_dataset as Dataset
+from bdd_dataset import BDD_dataset as Dataset
 # import multiprocessing
 # multiprocessing.set_start_method('spawn', True) # for vscode debug
 
@@ -33,7 +33,7 @@ val_dataset = Dataset('/home/selfdriving/I3D/bdd12k.json', 'val', '/home/selfdri
 val_dataloader = torch.utils.data.DataLoader(val_dataset,
                                                 batch_size=4,
                                                 shuffle=True,
-                                                num_workers=16,
+                                                num_workers=2,  #16/24 on jobs
                                                 pin_memory=True)
 
 resnet = torchvision.models.resnet101(pretrained=True)

@@ -23,7 +23,7 @@ def video_to_tensor(pic):
     Returns:
          Tensor: Converted video.
     """
-    return torch.from_numpy(pic.transpose([3,0,1,2])) # convert numpy to tensor
+    return torch.from_numpy(pic.transpose([3,0,1,2])) # 3 x 64 x 224 x 224
 
 
 def load_rgb_frames(image_dir, split, vid, num_frames):
@@ -33,10 +33,10 @@ def load_rgb_frames(image_dir, split, vid, num_frames):
         img = cv2.resize(img, (256,256), interpolation = cv2.INTER_LINEAR) # resize to 256
         img = (img/255.)*2 - 1 # normalize
         frames.append(img) 
-    return np.asarray(frames, dtype=np.float32) # a list of np.array (720,1280,3)
+    return np.asarray(frames, dtype=np.float32) 
 
 
-def make_dataset(split_file, split, root):
+def make_dataset(split_file, split, root, num_classes=7):
     
     dataset = []
     with open(split_file, 'r') as f:
@@ -53,7 +53,8 @@ def make_dataset(split_file, split, root):
             continue
 
         action = np.asarray(data[vid]['actions'], np.float32)
-        label = action #size: num_cls x 1
+        # label = np.transpose(np.tile(action,(num_frames,1))) #size: num_cls x num_frs
+        label = action #1x7
         
         dataset.append((vid, label, num_frames))
         i += 1
@@ -65,14 +66,13 @@ def make_dataset(split_file, split, root):
 
 class BDD_dataset(data_utl.Dataset):
 
-    def __init__(self, split_file, split, root, frame_nb, transforms=None):
+    def __init__(self, split_file, split, root, transforms=None):
         
         self.data = make_dataset(split_file, split, root=root)
         self.split_file = split_file
         self.transforms = transforms
         self.root = root
         self.split = split
-        self.frame_nb = frame_nb
 
     def __getitem__(self, index):
         """
@@ -83,9 +83,9 @@ class BDD_dataset(data_utl.Dataset):
             tuple: (image, target) where target is class_index of the target class.
         """
         vid, label, nf = self.data[index]  
-        imgs = load_rgb_frames(self.root, self.split, vid, nf) # size: nf x 720 x 1080 x 3
-        imgs = imgs[-self.frame_nb:,:,:,:] # last 64 frames
-        imgs = self.transforms(imgs)
+        imgs = load_rgb_frames(self.root, self.split, vid, nf) # size: nf x 256 x 256 x 3
+        imgs = imgs[-64:,:,:,:] # last 64 frames
+        imgs = self.transforms(imgs) # nf x 224 x 224 x 3
          
          
 

@@ -1,0 +1,59 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: cutbdd-job
+spec:
+  template:
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: gpu-type
+                operator: In
+                values:
+                - 1080Ti
+      containers:
+      - name: cpu-container
+        image: gitlab-registry.nautilus.optiputer.net/glh/base:latest
+        command: 
+        - sh
+        - -c
+        - cd /home/selfdriving/SRIP19_SelfDriving/maskrcnn/maskrcnn-benchmark && python setup.py build develop && /miniconda/envs/py36/bin/python /home/selfdriving/SRIP19_SelfDriving/maskrcnn/maskrcnn-benchmark/tools/test_net.py
+        # - /miniconda/envs/py36/bin/python /home/selfdriving/waymo/convert_img.py
+        # - /miniconda/envs/py36/bin/python /home/selfdriving/3D-ResNets-PyTorch/main.py
+        # - python /home/selfdriving/waymo/unzip.py
+        # args:
+        # - /home/selfdriving/mrcnn/dataset/\*.zip
+        # - -d /home/selfdriving/mrcnn/bddv/
+        volumeMounts:
+        - mountPath: /home/selfdriving
+          name: fs-store
+        - mountPath: /dev/shm
+          name: dshm
+        resources:
+          limits: # upperbound
+            memory: 32Gi
+            cpu: "8"
+            nvidia.com/gpu: 2
+          requests: # lowerbound
+            memory: 8Gi
+            cpu: "2"
+            nvidia.com/gpu: 2                
+      restartPolicy: Never
+      volumes:
+        - name: fs-store
+          flexVolume:
+            driver: ceph.rook.io/rook
+            fsType: ceph
+            options:
+              clusterNamespace: rook
+              fsName: nautilusfs
+              path: /srip19-selfdriving
+              mountUser: srip19-selfdriving
+              mountSecret: ceph-fs-secret
+        - name: dshm
+          emptyDir:
+            medium: Memory
+        

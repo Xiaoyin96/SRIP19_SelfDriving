@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: base-pod
+spec:
+  affinity:
+   nodeAffinity:
+     requiredDuringSchedulingIgnoredDuringExecution:
+       nodeSelectorTerms:
+       - matchExpressions:
+         - key: gpu-type
+           operator: In
+           values:
+           - 1080Ti
+  containers:
+  - name: gpu-container
+    image: gitlab-registry.nautilus.optiputer.net/glh/base:latest
+    # command: 
+    # - sh
+    # - -c
+    # - screen -dmS jupyter jupyter notebook --ip='0.0.0.0' --allow-root --no-browser
+    # command: ["service", "ssh", "restart"]
+    command: ["sleep", "infinity"]
+    volumeMounts:
+    - mountPath: /home/selfdriving
+      name: fs-store
+    - mountPath: /dev/shm
+      name: dshm
+    resources:
+      limits:
+        memory: 8Gi
+        nvidia.com/gpu: 1
+        cpu: 2
+      requests:
+        memory: 8Gi
+        nvidia.com/gpu: 1
+        cpu: 2
+  restartPolicy: Never
+  volumes:
+    - name: fs-store
+      flexVolume:
+        driver: ceph.rook.io/rook
+        fsType: ceph
+        options:
+          clusterNamespace: rook
+          fsName: nautilusfs
+          path: /srip19-selfdriving
+          mountUser: srip19-selfdriving
+          mountSecret: ceph-fs-secret
+    - name: dshm
+      emptyDir:
+        medium: Memory
+

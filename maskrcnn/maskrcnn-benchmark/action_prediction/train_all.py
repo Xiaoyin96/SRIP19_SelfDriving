@@ -36,7 +36,7 @@ def train(cfg, args):
         # path = '/data6/SRIP19_SelfDriving/bdd100k/trained_model/Outputs/model_final_apt.pth'
         path = args.model_root
         checkpoint = torch.load(path)
-        model.load_state_dict(checkpoint, strict=False)
+        model.load_state_dict(checkpoint)
     else:
         checkpoint = torch.load(args.checkpoint)
         model.load_state_dict(checkpoint)
@@ -47,10 +47,10 @@ def train(cfg, args):
     for i, child in enumerate(model.children()):
         #print(i)
         #print(child)
-        if i < 4:
+        if i < 3:
             for param in child.parameters():
-                param.requires_grad = False
-                # param.requires_grad = not(bool(args.freeze))
+                # param.requires_grad = False
+                param.requires_grad = not(bool(args.freeze))
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -100,7 +100,7 @@ def train(cfg, args):
             optimizer.zero_grad()
             if cfg.MODEL.SIDE:
                 pred, pred_reason = model(imBatch)
-                print(pred, pred_reason)
+                #print(pred, pred_reason)
                 # Joint loss
                 loss1 = criterion(pred, targetBatch)
                 loss2 = criterion2(pred_reason, reasonBatch)
@@ -200,7 +200,6 @@ def main():
     )
     parser.add_argument(
         "--freeze",
-        type=bool,
         default=False,
         help="If freeze faster rcnn",
     )

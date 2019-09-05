@@ -17,14 +17,18 @@ from maskrcnn_benchmark.modeling.detector import build_detection_model
 from DataLoader_together import BatchLoader
 
 from utils import attention
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
+
 def test(cfg, args):
-    # torch.cuda.set_device(0 )
+    # torch.cuda.set_device(5)
 
     # Initialize the network
     model = build_detection_model(cfg)
+    print(model)
     model.eval()
     #print(model)
     
@@ -69,37 +73,38 @@ def test(cfg, args):
 
 
     count = dataloader.__len__()
-    for i, dataBatch in enumerate(dataloader):
-        print('Finished: %.2f%%' % (i*int(args.batch_size)/count * 100))
+    for i, dataBatch in enumerate(dataloader): 
+        print('Finished: {} / {}'.format(i, count))
+        print('Finished: %.2f%%' % (i /count * 100))
         # Read data
-        img_cpu = dataBatch['img']
-        imBatch = img_cpu.to(device)
-        ori_img_cpu = dataBatch['ori_img']
+        with torch.no_grad():
+            img_cpu = dataBatch['img']
+            imBatch = img_cpu.to(device)
+            ori_img_cpu = dataBatch['ori_img']
 
-        target_cpu = dataBatch['target']
-        targetBatch = target_cpu.to(device)
-        if cfg.MODEL.SIDE:
-            reason_cpu = dataBatch['reason']
-            reasonBatch = reason_cpu.to(device)
-            pred, pred_reason = model(imBatch)
-        else:
-            pred = model(imBatch)
+            target_cpu = dataBatch['target']
+            targetBatch = target_cpu.to(device)
+            if cfg.MODEL.SIDE:
+                reason_cpu = dataBatch['reason']
+                reasonBatch = reason_cpu.to(device)
+                pred, pred_reason = model(imBatch)
+            else:
+                pred = model(imBatch)
 
         # if i == 0: # estimate the model size
         #     modelsize(model, imBatch)
         # pred, selected_boxes = model(imBatch)
-        # DrawBbox(ori_img_cpu[0], selected_boxes[0])
-        # plt.clf()
-        # plt.close()
+        # DrawBbox(ori_img_cpu[0], selected_boxes[0], outdir, i)
+
         # torch.cuda.empty_cache()
-        if args.is_savemaps:
-            hooked_features = hook_conv5.output.data
-            hooked_features = torch.mean(torch.mean(hooked_features, dim=0 ), dim=0)
-            # hooked_features = torch.sum(torch.sum(hooked_features, dim=0), dim=0)
-            # print(hooked_features.shape)
-            new_img = attention(ori_img_cpu.squeeze(0).data.numpy(), hooked_features.cpu().data.numpy())
-            plt.imsave((outdir + 'att_maps/' + str(i) + '.jpg'), new_img)
-        
+        # if args.is_savemaps:
+        #     hooked_features = hook_conv5.output.data
+        #     hooked_features = torch.mean(torch.mean(hooked_features, dim=0 ), dim=0)
+        #     # hooked_features = torch.sum(torch.sum(hooked_features, dim=0), dim=0)
+        #     # print(hooked_features.shape)
+        #     new_img = attention(ori_img_cpu.squeeze(0).data.numpy(), hooked_features.cpu().data.numpy())
+        #     plt.imsave((outdir + 'att_maps/' + str(i) + '.jpg'), new_img)
+
         # Calculate accuracy
         predict = torch.sigmoid(pred) > 0.5
         # torch.cuda.empty_cache()
@@ -152,6 +157,9 @@ def test(cfg, args):
     PredArr = List2Arr(PredArr)
     RandomArr = List2Arr(RandomArr)
     
+    
+    print(TargetArr)
+    print(PredArr)
     f1_pred = f1_score(TargetArr, PredArr, average=None)
     f1_rand = f1_score(TargetArr, RandomArr, average=None)
 
@@ -190,7 +198,8 @@ def List2Arr(List):
 
     return np.vstack((Arr1, Arr2))
 
-def DrawBbox(img, boxlist):
+def DrawBbox(img, boxlist, outdir, k):
+    fig = plt.figure()
     plt.imshow(img)
     currentAxis = plt.gca()
     for i in range(boxlist.shape[0]):
@@ -198,8 +207,11 @@ def DrawBbox(img, boxlist):
         rect = patches.Rectangle((bbox[0], bbox[1]), bbox[2]-bbox[0], bbox[3]-bbox[1], linewidth=1, edgecolor='r', facecolor='none')
         # rect = patches.Rectangle((bbox[1], bbox[0]), bbox[3]-bbox[1], bbox[2]-bbox[0], linewidth=1, edgecolor='r', facecolor='none')
         currentAxis.add_patch(rect)
-
+    plt.axis('off')
     plt.show()
+    plt.savefig(outdir + 'att_maps/' + str(k) + '.jpg', dpi=200 )
+    plt.clf()
+    plt.close()
 
 
 class SimpleHook(object):
@@ -298,13 +310,13 @@ def main():
         "--model_root",
         type=str,
         help="Directory to the trained model",
-        default="/data6/SRIP19_SelfDriving/bdd12k/Outputs/08_23_w_sel_batch2/netFinal_13.pth"
+        default="/data6/SRIP19_SelfDriving/bdd12k/Outputs/08_28_side_v1/finetune/net_10.pth"
     )
     parser.add_argument(
         "--output_dir",
         type=str,
         help="Directory to the trained model",
-        default="/data6/SRIP19_SelfDriving/bdd12k/Outputs/"
+        default="/data6/SRIP19_SelfDriving/bdd12k/Outputs/08_28_side_v1/"
 
     )
 

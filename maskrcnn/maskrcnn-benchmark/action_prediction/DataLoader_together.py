@@ -72,8 +72,6 @@ class BatchLoader(Dataset):
         # target = one_hot(target, 4)
 
         img_ = Image.open(imgName)
-        # img = Image.open('/data6/SRIP19_SelfDriving/bdd12k/data1/aaddb12e-82dd1431_3.jpg')
-
 
         color_jitter = T.ColorJitter(
                 brightness=0.0,

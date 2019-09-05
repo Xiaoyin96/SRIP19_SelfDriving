@@ -17,17 +17,19 @@ from maskrcnn_benchmark.modeling.detector import build_detection_model
 
 from DataLoader_together import BatchLoader
 
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+
 
 def train(cfg, args):
-    # torch.cuda.set_device(7)
+    # torch.cuda.set_device(2)
 
     # Initialize the network
     model = build_detection_model(cfg)
 
-
-    if torch.cuda.device_count() > 1:
-        print("Let's use", torch.cuda.device_count(), "GPUs!")
-        model = nn.DataParallel(model)
+    # if torch.cuda.device_count() > 1:
+    #     print("Let's use", torch.cuda.device_count(), "GPUs!")
+    #     model = nn.DataParallel(model)
     # model load weights
     # print(torch.load(cfg.MODEL.WEIGHT))
     # checkpoint = torch.load(cfg.MODEL.WEIGHT)['model']
@@ -40,17 +42,16 @@ def train(cfg, args):
     else:
         checkpoint = torch.load(args.checkpoint)
         model.load_state_dict(checkpoint)
-    #model.train() 
-    
+    # model.train()
 
     print("Freeze faster rcnn?", bool(args.freeze))
     for i, child in enumerate(model.children()):
-        #print(i)
-        #print(child)
-        if i < 4:
+        # print(i)
+        # print(child)
+        if i < 3:
             for param in child.parameters():
-                #param.requires_grad = False
-                param.requires_grad = not(bool(args.freeze))
+                param.requires_grad = False
+                # param.requires_grad = not (bool(args.freeze))
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model.to(device)
@@ -67,16 +68,15 @@ def train(cfg, args):
 
     # Initialize DataLoader
     Dataset = BatchLoader(
-        imageRoot = args.imageroot,
-        gtRoot = args.gtroot,
-        reasonRoot = args.reasonroot,
-        cropSize = (args.imHeight, args.imWidth)
+        imageRoot=args.imageroot,
+        gtRoot=args.gtroot,
+        reasonRoot=args.reasonroot,
+        cropSize=(args.imHeight, args.imWidth)
     )
     dataloader = DataLoader(Dataset, batch_size=int(args.batch_size), num_workers=0, shuffle=True)
 
     # lossArr = []
     # AccuracyArr = []
-
 
     for epoch in range(0, args.num_epoch):
         trainingLog = open(outdir + ('trainingLogTogether_{0}.txt'.format(epoch)), 'w')
@@ -125,17 +125,16 @@ def train(cfg, args):
             meanLoss = np.mean(np.array(lossArr))
 
             # Calculate accuracy
-            predict = torch.sigmoid(pred) >= 0.5
+            predict = torch.sigmoid(pred) > 0.5
 
             f1 = f1_score(target_cpu.data.numpy(), predict.cpu().data.numpy(), average='samples')
             AccuracyArr.append(f1)
             meanAcc = np.mean(np.array(AccuracyArr))
-            
+
             if cfg.MODEL.SIDE:
-                predict_reason = torch.sigmoid(pred_reason) >= 0.5
+                predict_reason = torch.sigmoid(pred_reason) > 0.5
                 f1_side = f1_score(reason_cpu.data.numpy(), predict_reason.cpu().data.numpy(), average='samples')
                 AccSideArr.append(f1_side)
-                
 
             if i % 50 == 0:
                 print('prediction logits:', pred)
@@ -148,11 +147,11 @@ def train(cfg, args):
                 print('Epoch %d Iteration %d Action Prediction: F1 %.5f Accumulated F1 %.5f' % (
                     epoch, i, AccuracyArr[-1], meanAcc))
                 if cfg.MODEL.SIDE:
-                    meanAccSide = np.mean(AccSideArr)  
+                    meanAccSide = np.mean(AccSideArr)
                     print('Epoch %d Iteration %d Side Task: F1 %.5f Accumulated F1 %.5f' % (
-                    epoch, i, AccSideArr[-1], meanAccSide))
+                        epoch, i, AccSideArr[-1], meanAccSide))
 
-            if epoch in [int(0.5*args.num_epoch), int(0.7*args.num_epoch)] and i==0:
+            if epoch in [int(0.4 * args.num_epoch), int(0.7 * args.num_epoch)] and i == 0:
                 print('The learning rate is being decreased at Iteration %d', i)
                 trainingLog.write('The learning rate is being decreased at Iteration %d \n' % i)
                 for param_group in optimizer.param_groups:
@@ -160,7 +159,7 @@ def train(cfg, args):
 
         if (epoch + 1) % 2 == 0:
             torch.save(model.state_dict(), (outdir + 'net_%d.pth' % (epoch + 1)))
-        #if args.val and epoch % 10 == 0:
+        # if args.val and epoch % 10 == 0:
         #    print("Validation...")
         #    run_test(cfg, args)
     print("Saving final model...")
@@ -170,6 +169,16 @@ def train(cfg, args):
 
 def run_test(cfg, args):
     pass
+
+def DrawBbox(img, boxlist):
+    plt.imshow(img)
+    currentAxis = plt.gca()
+    for i in range(boxlist.shape[0]):
+        bbox = boxlist[i]
+        rect = patches.Rectangle((bbox[0], bbox[1]), bbox[2]-bbox[0], bbox[3]-bbox[1], linewidth=1, edgecolor='r', facecolor='none')
+        currentAxis.add_patch(rect)
+
+    plt.show()
 
 def main():
     # Build a parser for arguments
@@ -199,7 +208,6 @@ def main():
     )
     parser.add_argument(
         "--freeze",
-        type=bool,
         default=False,
         help="If freeze faster rcnn",
     )
@@ -295,7 +303,6 @@ def main():
 
     train(cfg, args)
 
-    
 
 if __name__ == "__main__":
     main()

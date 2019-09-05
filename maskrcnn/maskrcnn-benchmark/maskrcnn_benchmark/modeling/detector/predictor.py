@@ -31,12 +31,14 @@ class Predictor(nn.Module):
         if self.is_cat:
             self.avg1 = nn.AdaptiveAvgPool3d(output_size=1)
             self.avg2 = nn.AdaptiveAvgPool2d(output_size=1)
-            self.fc1 = nn.Linear(4096, 64)
+            self.fc1 = nn.Linear(4096, 100)
             self.relu1 = nn.ReLU(inplace=True)
-            self.fc2 = nn.Linear(64, class_num)
+            self.fc2 = nn.Linear(100, class_num)
             self.drop = nn.Dropout(p=0.25)
             if self.side:
-                self.fc_side = nn.Linear(4096, 21)
+                self.fc_side1 = nn.Linear(4096, 100)
+                self.relu_side1 = nn.ReLU(inplace=True)
+                self.fc_side2 = nn.Linear(100, 21)
         else:
             self.avg = nn.AdaptiveAvgPool2d(output_size=1)
             self.fc2 = nn.Linear(2048, class_num)
@@ -76,7 +78,8 @@ class Predictor(nn.Module):
             x = self.drop(self.fc2(x)) # (1, num_class)
 
             if self.side:
-                side = self.drop(self.fc_side(tmp))
+                side = self.drop(self.relu_side1(self.fc_side1(tmp)))
+                side = self.drop(self.fc_side2(side))
         else: 
             select_feature = torch.sum(select_features, dim=0).unsqueeze(0) # (1, 1024, 14, 14)
             glob_feature = self.avgpool_glob(x['glob_feature']) # shape(1, 1024, 14, 14)
@@ -87,10 +90,10 @@ class Predictor(nn.Module):
             x = self.avg(x) # shape(1, 2048, 1, 1)
             tmp = x.view(x.size(0), -1) # shape(1, 2048)
             x = self.fc2(tmp) # shape(1, num_class)
-            x = self.drop(x)
+            # x = self.drop(x)
             # print(self.side)
             if self.side:
-                side = self.drop(self.fc_side(tmp))
+                side = (self.fc_side(tmp))
 
         return (x, side) if self.side else x
 

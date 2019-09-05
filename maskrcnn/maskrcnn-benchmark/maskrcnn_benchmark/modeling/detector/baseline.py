@@ -103,6 +103,7 @@ class Baseline(nn.Module):
         logger = logging.getLogger("tmp")
         logger.info(len(features))
         proposals, proposal_losses = self.rpn(images, features, targets)
+        # print(proposals)
         # print("Num of proposals: ", proposals[0].bbox.shape)
         # print("Proposal:", proposals[0].bbox.type(torch.int))
         if self.roi_heads:
@@ -110,6 +111,7 @@ class Baseline(nn.Module):
             #     x, result, _ = self.roi_heads(features, targets, targets)
             # else:
             x, result, _ = self.roi_heads(features, proposals, targets)
+            print("x shape",x.shape)
             # print("Num of BBOX: ", result[0].bbox.shape)
             # print("BBOX:", result[0].bbox.type(torch.int))
             # print("Saving BBOX")
@@ -126,7 +128,7 @@ class Baseline(nn.Module):
                 preds = []
                 preds_reason = []
                 # selected_boxes=[]
-                for i in range(b_size):
+                for i in range(b_size): # iterate every image in the batch
                     bbox_num = result[i].bbox.shape[0]
                     results = {'roi_features':x[tmp:tmp + bbox_num],
                                'glob_feature':features[0][i].unsqueeze(0), }

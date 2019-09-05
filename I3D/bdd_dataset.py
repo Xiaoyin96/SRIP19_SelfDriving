@@ -26,14 +26,15 @@ def video_to_tensor(pic):
     return torch.from_numpy(pic.transpose([3,0,1,2])) # convert numpy to tensor
 
 
-def load_rgb_frames(image_dir, split, vid, num_frames):
+def load_rgb_frames(image_dir, split, vid, num_frames, interval):
     frames = []
-    for i in range(1, num_frames+1):
+    for i in range(1, num_frames+1, interval):
         img = cv2.imread(os.path.join(image_dir, split, 'img/', vid, vid+'_'+str(i).zfill(2)+'.jpg'))[:, :, [2, 1, 0]] 
         img = cv2.resize(img, (256,256), interpolation = cv2.INTER_LINEAR) # resize to 256
         img = (img/255.)*2 - 1 # normalize
         frames.append(img) 
-    return np.asarray(frames, dtype=np.float32) # a list of np.array (720,1280,3)
+
+    return np.asarray(frames, dtype=np.float32) # a list of np.array (256,256,3)
 
 
 def make_dataset(split_file, split, root):
@@ -57,7 +58,7 @@ def make_dataset(split_file, split, root):
         
         dataset.append((vid, label, num_frames))
         i += 1
-        if i%100 == 0:
+        if i%1000 == 0:
             print('load data:', i)
     
     return dataset
@@ -65,7 +66,7 @@ def make_dataset(split_file, split, root):
 
 class BDD_dataset(data_utl.Dataset):
 
-    def __init__(self, split_file, split, root, frame_nb, transforms=None):
+    def __init__(self, split_file, split, root, frame_nb, interval, transforms=None):
         
         self.data = make_dataset(split_file, split, root=root)
         self.split_file = split_file
@@ -73,6 +74,7 @@ class BDD_dataset(data_utl.Dataset):
         self.root = root
         self.split = split
         self.frame_nb = frame_nb
+        self.interval = interval
 
     def __getitem__(self, index):
         """
@@ -83,13 +85,17 @@ class BDD_dataset(data_utl.Dataset):
             tuple: (image, target) where target is class_index of the target class.
         """
         vid, label, nf = self.data[index]  
-        imgs = load_rgb_frames(self.root, self.split, vid, nf) # size: nf x 720 x 1080 x 3
-        imgs = imgs[-self.frame_nb:,:,:,:] # last 64 frames
-        imgs = self.transforms(imgs)
+        imgs = load_rgb_frames(self.root, self.split, vid, nf, self.interval) # size: nf x 256 x 256 x 3
+        num = len(imgs)
+        if num < self.frame_nb:
+            raise ValueError('frame number{} is smaller than assigned frame_nb{}'
+                         ).format(num, self.frame_nb)
+        imgs = imgs[-self.frame_nb:,:,:,:] # last nf frames
+        imgs = self.transforms(imgs) # nf x 224 x 224 x 3
          
          
 
-        return video_to_tensor(imgs), torch.from_numpy(label) # convert to tensor
+        return video_to_tensor(imgs), torch.from_numpy(label) # convert to tensor: 3 x nf x 224 x 224
 
     def __len__(self):
         return len(self.data)

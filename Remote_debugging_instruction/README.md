@@ -34,11 +34,10 @@ Host base-pod
     User root
     Port 2222
 ```
-Save config.
-
+Save config.  
 Click Connect to host in new window.
-Type passwd you just created.
-Install Python extension in remote.
+Type passwd you just created.  
+Install Python extension in remote.  
 Start debugging!
 
 

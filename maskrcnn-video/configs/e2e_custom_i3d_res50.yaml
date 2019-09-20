@@ -1,0 +1,17 @@
+MODEL:
+  META_ARCHITECTURE: "GeneralizedModel"
+  # WEIGHT: "catalog://ImageNetPretrained/MSRA/R-50"
+  BACKBONE:
+    CONV_BODY: "R-50-I3D-C4"
+  ROI_BOX_HEAD:
+    POOLER_RESOLUTION: 14
+DATASETS:
+  TRAIN: ("coco_2014_train", "coco_2014_valminusminival")
+  TEST: ("coco_2014_minival",)
+SOLVER:
+  BASE_LR: 0.01
+  WEIGHT_DECAY: 0.0001
+  STEPS: (120000, 160000)
+  MAX_ITER: 180000
+  # IMS_PER_BATCH: 8
+OUTPUT_DIR: '/home/selfdriving/mrcnn/video_output/model_e2e/'
